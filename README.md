@@ -1,1 +1,3 @@
-# Curso_Cubo_Academy_Ifood-teste.txt
+# Curso_Cubo_Academy_Ifood
+
+Curso de JavaScript

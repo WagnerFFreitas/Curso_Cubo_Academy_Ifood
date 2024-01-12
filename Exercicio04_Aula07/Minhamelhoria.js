@@ -1,13 +1,13 @@
-let precoDoProduto = 37.50;
-//Aqui eu crie uma fuçaõ IMPRIMEPRECO ao inves de escrever CONSOLE.LOG kkk
-function imprimirPreco() {
-    console.log("Preço do produto é:", precoDoProduto.toFixed(2));
+let precodoproduto = 37.50;
+//Aqui eu crie uma função IMPRIMEPRECO ao invés de escrever CONSOLE.LOG kkk
+function imprimirpreco() {
+    console.log("Preço do produto é:", precodoproduto.toFixed(2));
 }
-function aplicarDesconto(valorDesconto) {
-    precoDoProduto -= precoDoProduto * valorDesconto;
+function aplicardesconto(valordesconto) {
+    precodoproduto -= precodoproduto * valordesconto;
 }
-imprimirPreco();
-aplicarDesconto(0.2); // Desconto de 20%
-imprimirPreco();
-aplicarDesconto(0.1); // Desconto adicional de 10%
-imprimirPreco();
+imprimirpreco();
+aplicardesconto(0.2); // Desconto de 20%
+imprimirpreco();
+aplicardesconto(0.1); // Desconto adicional de 10%
+imprimirpreco();

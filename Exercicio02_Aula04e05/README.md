@@ -1,3 +1,5 @@
 # Exercicio02
 Aula 04 e 05_Logica de programação da IFood_Cubo Academy
 Tipos de variáveis: LET e CONST
+LET : O seu valor pode ser alterado de acordo coma a necessidade;
+CONST : O seu valor após ser fixado não pode ser alterado no decorrer do programa. 

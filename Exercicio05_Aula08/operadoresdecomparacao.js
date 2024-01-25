@@ -1,5 +1,5 @@
 //Variáveis boleana
-let numero = 5436;
+let numero = 5436;//
 let texto = "oi";
 let vazia;
 let verdade = numero > 100; //Verifica se a variável e verdadeira (TRUE)
@@ -21,7 +21,7 @@ console.log("Tipo da variável verdade: ", typeof verdade);
 //uma forma simples
 console.log("--------------------------------------")
 
-//Aqui sera comparado os valores se são:
+//1ª Aqui sera comparado os valores se são:
 //MAIOR, MAIOR OU IGUAL, MENOR, MENOR OU MAIOR
 console.log("É maior?", numero > 5436);
 console.log("É maior ou igual?", numero >= 5);
@@ -32,7 +32,7 @@ console.log("É menor ou maior?", numero <= 5436);
 //uma forma simples
 console.log("--------------------------------------")
 
-//Aqui sera feito uma uma comparação
+//2ª Aqui sera feito uma comparação
 console.log("É igual?", numero === 900);
 console.log("É igual?", texto === 900);
 console.log("É igual?", texto === "oi");

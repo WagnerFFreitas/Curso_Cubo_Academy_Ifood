@@ -1,5 +1,5 @@
 //As modificações foram feita baseadas em alguns
-//conteudos que foram pesquisados na internet
+//conteúdos que foram pesquisados na internet
 // Declaração de variáveis
 let numero = 5436; // Um número inteiro
 let texto = "oi"; // Uma string de texto
@@ -22,7 +22,7 @@ console.log(`Tipo da variável 'verdade': ${typeof verdade}`);
 // Separação visual
 console.log("--------------------------------------");
 
-// Comparação de valores
+// 1ª Comparação de valores
 console.log("É maior?", numero > 5436);
 console.log("É maior ou igual?", numero >= 5436);
 console.log("É menor?", numero < 10000);
@@ -31,5 +31,6 @@ console.log("É menor ou igual?", numero <= 5436);
 // Separação visual
 console.log("--------------------------------------");
 
+//2ª Aqui sera feito uma comparação
 console.log("É igual?", numero === 900);
 console.log("É diferente?", texto !== "oi");

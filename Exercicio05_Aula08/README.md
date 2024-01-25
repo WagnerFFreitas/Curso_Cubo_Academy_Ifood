@@ -6,4 +6,4 @@ Operadores de comparação:
 >=  (Maior ou igual a)
 <=  (menor ou igual a)
 
-Obs: Exercício da Aula10 de resumo dos operadores de comparação está neste tambem
+Obs: Exercício da Aula10 de resumo dos operadores de comparação está neste também

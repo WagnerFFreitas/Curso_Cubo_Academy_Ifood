@@ -11,5 +11,5 @@ function naoMexer(input){
 //let input = require('fs').readfilesync('/dev/stdin','utf8');
 //A linha acima so funciona dentro do ambiente do desafio da Cubo Academy
 const input = "10 5";
-//A linha acima e para testar o codigo dentro do VSCode
+//A linha acima e para testar o código dentro do VSCode
 naoMexer(input);

@@ -2,9 +2,9 @@ let precodoproduto01 = 19.29;
 let precodoproduto02 = 0.80;
 let precodoproduto03 = 4.85;
 
-let custo = 0;//Variavel criada para calcula a gasto com os produtos
+let custo = 0;//Variável criada para calcular o gasto com os produtos
 
-//Se o produto 01 for menor que R$18,00 comprar, nao foi incluso a condicional.
+//Se o produto 01 for menor que R$18,00 comprar, não foi incluso a condicional.
 if (precodoproduto01 <= 18){
     console.log("Comprei o produto 01");
     //Na linha 9 e modificado o valor da variável

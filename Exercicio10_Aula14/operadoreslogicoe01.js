@@ -8,7 +8,7 @@ const idade = 15;
 const temcarterinha = false;
 const ehadulta = idade >= 18 && idade <= 60;//Idade maior ou igual (&& e mesmo que e, sendo ele um operador logico) idade menor ou igual a 60
 //const ehadulta = ((idade >= 18) && (idade <= 60)); --> pode ser feito assim também.
-if (idade < 18 || idade > 60 || (ehAdulta && temcarterinha)){
+if (idade < 18 || idade > 60 || (ehAdulta && temcarterinha)){ // ou e o mesmo que o símbolo ||
 //So vai entrar no else se todas as condições acima for falsas
     console.log("Meia");
 } else {

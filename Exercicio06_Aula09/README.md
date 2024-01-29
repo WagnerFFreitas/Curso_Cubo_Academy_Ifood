@@ -1,6 +1,6 @@
 # Exercicio06_Aula09
 Aula 09_Logica de programação da IFood_Cubo Academy
-Exercício de operações matemáticas
+Exercício de operações matemáticas e de exponenciação: % (Resto da divisão) e ** (Elevado a). 
 
 Desafio do exercício Divisível por X:
 

@@ -1,5 +1,6 @@
 # Exercicio04_Aula07
 Aula 07_Logica de programação da IFood_Cubo Academy
+
 Exercício de tipo de operadores de atribuição aritmética: +=, -=, *=, /= e %=
 
 +=	Atribuição de adição (Adiciona o valor à direita ao valor da variável à esquerda e, em seguida, retorna o novo valor da variável);

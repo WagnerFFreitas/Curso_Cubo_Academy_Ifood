@@ -5,6 +5,7 @@ Aula de estrutura de repetição
 
 while (enquanto) Cria um laço que executa uma declaração (rotina especifica) ENQUANTO a condição for verdadeira, executa os comandos do bloco.
 
+Exemplo
 
 
 

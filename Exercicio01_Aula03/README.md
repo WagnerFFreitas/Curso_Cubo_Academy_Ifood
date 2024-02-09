@@ -1,6 +1,7 @@
 # Exercicio01
 Aula 03_Logica de programação da IFood_Cubo Academy
-Primeiro codigo em JavaScript
+
+Primeiro código em JavaScript
 
 Obs:
 Sempre ficar atento a letras maiúsculas e minusculas.

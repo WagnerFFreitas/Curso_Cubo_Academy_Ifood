@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #estado-jogo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #tentativas-restantes {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #letras-incorretas {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #entrada-letra {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  #verificar-letra {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #verificar-letra:active {
+    background-color: blue;
+    color: white;
+  }

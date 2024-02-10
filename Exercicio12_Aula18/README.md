@@ -3,9 +3,11 @@ Aula 18_Logica de programação da IFood_Cubo Academy
 
 Aula de elementos de uma coleção
 
-Tipo é extrutura de condição:
+FOR - É uma estrutura de controle que permite criar loops e repetir um conjunto de instruções várias vezes. Tudo ocorre, enquanto uma condição for cumprida.
 
-if (Condição)
-while (condição)
-for (const elemento of coleção)
+Tipo é estrutura de condição:
+
+IF (Condição)
+WHILE (condição)
+FOR (CONST elemento OF coleção)
 

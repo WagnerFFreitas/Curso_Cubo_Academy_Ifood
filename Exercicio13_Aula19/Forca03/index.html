@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+<style>
+    #hangman {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    }
+</style>
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+    <div id="word-display"></div>
+    <div id="hangman"></div>
+    <div id="used-letters"></div>
+
+<script>
+    const words = ["banana", "javascript", /* adicione mais palavras aqui */];
+    let selectedWord = words[Math.floor(Math.random() * words.length)];
+    let guessedWord = Array(selectedWord.length).fill('_');
+    let incorrectGuesses = 0;
+    let usedLetters = [];
+
+    function displayWord() {
+      document.getElementById('word-display').innerText = guessedWord.join(' ');
+    }
+
+    function displayHangman() {
+      const hangmanDiv = document.getElementById('hangman');
+      hangmanDiv.innerHTML = `<img src="hangman${incorrectGuesses}.png" alt="Hangman">`;
+    }
+
+    function displayUsedLetters() {
+      document.getElementById('used-letters').innerText = `Letras usadas: ${usedLetters.join(', ')}`;
+    }
+
+    function checkGuess(letter) {
+      if (usedLetters.includes(letter)) {
+        alert('Você já usou essa letra. Tente outra.');
+        return;
+      }
+
+      usedLetters.push(letter);
+
+      if (selectedWord.includes(letter)) {
+        for (let i = 0; i < selectedWord.length; i++) {
+          if (selectedWord[i] === letter) {
+            guessedWord[i] = letter;
+          }
+        }
+      } else {
+        incorrectGuesses++;
+      }
+
+      displayWord();
+      displayHangman();
+      displayUsedLetters();
+
+      if (guessedWord.join('') === selectedWord) {
+        alert('Parabéns! Você venceu!');
+      } else if (incorrectGuesses < 6) {
+        // Continue o jogo
+      } else {
+        alert(`Game Over! A palavra era: ${selectedWord}`);
+      }
+    }
+
+    displayWord();
+    displayHangman();
+    displayUsedLetters();
+
+    document.addEventListener('keydown', function (event) {
+      const letter = event.key.toLowerCase();
+      if (/[a-z]/.test(letter)) {
+        checkGuess(letter);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+/*Criação das pastes do enforcado*/
 #pessoa-enforcada {
     display: flex;
     flex-direction: column;
@@ -29,5 +30,78 @@
     height: 50px;
   }
   
-  /* Restante do seu CSS permanece o mesmo */
+  /* Restante do arquivo forca.CSS do Meu_Primeiro_Jogo */
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
   
+  h1 {
+    color: #333;
+  }
+  
+  #estado-jogo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #tentativas-restantes {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #letras-incorretas {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #entrada-letra {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  #verificar-letra {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #verificar-letra:active {
+    background-color: blue;
+    color: white;
+  }
+
+  #pessoa-enforcada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    margin: 5px;
+  }
+  
+  #pessoa-enforcada .tronco {
+    width: 40px;
+    height: 60px;
+  }
+  
+  #pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
+    width: 15px;
+    height: 40px;
+  }
+  
+  #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
+    width: 20px;
+    height: 50px;
+  }  

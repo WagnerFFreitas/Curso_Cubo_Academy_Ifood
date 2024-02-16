@@ -39,9 +39,10 @@ function exibirenforcado() {
   var partesEnforcado = ["cabeca", "tronco", "braco-direito", "braco-esquerdo", "perna-direita", "perna-esquerda"];
   var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
 
-  pessoaEnforcadaElement.innerHTML = ""; // Limpa as partes anteriores
+  pessoaEnforcadaElement.innerHTML = "";
+  //A linha acima limpa as partes do enforcado anteriores
 
-  // Aqui sao as classes correspondentes às partes enforcadas
+  // A partir daqui sao as classes correspondentes às partes enforcadas
   partesEnforcado.slice(0, partesEnforcado.length - tentativas).forEach(function (parte) {
     var parteElement = document.createElement('div');
     parteElement.classList.add(parte);

@@ -1,8 +1,8 @@
 /*Criação das pastes do enforcado*/
 #pessoa-enforcada {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
+    display: flex;*/
+    flex-direction: column;
+    align-items: center;
     font-size: 24px;
     margin-top: 20px;
     color: #333;
@@ -19,21 +19,38 @@
     width: 40px;
     height: 60px;
   }
-  
-  #pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
+      
+  #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
     width: 15px;
     height: 40px;
-    margin-top: -40px; /* Esta linha posiciona os braços ao lado do tronco */
+    /*margin-top: -40px; /* Esta linha posiciona os braços ao lado do tronco*/
+    position: relative; /* Adicionado para utilizar posicionamento relativo */
+    /*top: -70px; /* Posiciona os braços acima do tronco */
+
+  }
+  
+  #pessoa-enforcada .braco-direito {
+    left: 30px; /* Adicionado para posicionar o braço direito à direita do tronco */
+    top: -70px; /* Posiciona os braços acima do tronco */
+  }
+
+  #pessoa-enforcada .braco-esquerdo {
+    /*width: -15px;*/
+    left: -30px;
+    top: -120px; /* Posiciona os braços acima do tronco */
   }
   
   #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
     width: 20px;
     height: 50px;
-    display: flex; /*Esta linha foi ascrecentada*/
+    /*display: flex; /*Esta linha foi ascrecentada*/
   }
   
   #pessoa-enforcada .perna-direita {
-    margin-left: 5px; /* Esta linha posiciona a perna direita ao lado da perna esquerda */
+    margin-left: 50px; /* Esta linha posiciona a perna direita ao lado da perna esquerda */
+    /*width: 20px;*/
+    height: 150px;
+
   }
 
   /* Restante do arquivo forca.CSS do Meu_Primeiro_Jogo */

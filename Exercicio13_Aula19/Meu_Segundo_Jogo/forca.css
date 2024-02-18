@@ -1,8 +1,8 @@
 /*Criação das pastes do enforcado*/
 #pessoa-enforcada {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
     font-size: 24px;
     margin-top: 20px;
     color: #333;
@@ -23,13 +23,19 @@
   #pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
     width: 15px;
     height: 40px;
+    margin-top: -40px; /* Esta linha posiciona os braços ao lado do tronco */
   }
   
   #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
     width: 20px;
     height: 50px;
+    display: flex; /*Esta linha foi ascrecentada*/
   }
   
+  #pessoa-enforcada .perna-direita {
+    margin-left: 5px; /* Esta linha posiciona a perna direita ao lado da perna esquerda */
+  }
+
   /* Restante do arquivo forca.CSS do Meu_Primeiro_Jogo */
 
   body {

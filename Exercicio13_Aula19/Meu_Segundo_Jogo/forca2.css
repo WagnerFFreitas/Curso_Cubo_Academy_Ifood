@@ -1,0 +1,36 @@
+#pessoa-enforcada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    margin: 5px;
+  }
+  
+  #pessoa-enforcada .tronco {
+    width: 40px;
+    height: 60px;
+  }
+  
+  #pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
+    width: 15px;
+    height: 40px;
+    margin-top: -40px; /* Adicionado para posicionar os braços ao lado do tronco */
+  }
+  
+  #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
+    width: 20px;
+    height: 50px;
+    display: flex;
+  }
+  
+  #pessoa-enforcada .perna-direita {
+    margin-left: 5px; /* Adicionado para posicionar a perna direita ao lado da perna esquerda */
+  }

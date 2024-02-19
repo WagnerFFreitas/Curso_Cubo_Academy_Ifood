@@ -8,8 +8,14 @@ function verificarletra() {
   var inputElement = document.getElementById('entrada-letra');
   var letra = inputElement.value.toLowerCase();
 
-  if (!letra.match(/^[a-z]$/)) {
+  if (!letra.match(/^[a-zà-ú]$/)) { 
     alert("Por favor, insira uma letra válida.");
+    return;
+  }
+
+  // Este bloco verifica se a letra já foi usada
+  if (letrascorretas.includes(letra) || letrasincorretas.includes(letra)) {
+    alert("Você já tentou essa letra. Tente outra.");
     return;
   }
   

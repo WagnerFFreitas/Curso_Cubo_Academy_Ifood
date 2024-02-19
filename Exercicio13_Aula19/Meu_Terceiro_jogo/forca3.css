@@ -38,6 +38,3 @@
     display: flex;
   }
   
-  #pessoa-enforcada .perna-direita {
-    margin-left: 5px; /* Adicionado para posicionar a perna direita ao lado da perna esquerda */
-  }

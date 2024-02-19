@@ -16,6 +16,7 @@
     margin: 5px;
   }
   
+  /* Este bloco adiciona o tamanho do tronco */
   #pessoa-enforcada .tronco {
     width: 40px;
     height: 60px;
@@ -40,14 +41,14 @@
     top: -120px; /* Alinha o braço ao ombro */
   }
   
+  /* Este bloco adiciona o tamanho das pernas*/
   #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
     width: 20px;
     height: 50px;
     position: relative; /* Adicionado para utilizar posicionamento relativo */
-    /*display: flex; /*Esta linha foi ascrecentada*/
   }
   
-    /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
+  /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
   #pessoa-enforcada .perna-direita {
     right: -15px; 
     top: -110px; /* Alinha a perna embaixo do tronco a direita */
@@ -59,51 +60,61 @@
       top: -170px; /* Alinha a perna embaixo do tronco a esquerda */
     }
 
-  /* Todos os blocos abaixo são do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado*/
+  /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 
+  /* Este bloco define a fonte e seu estilo junto com a posição */
   body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
   }
   
+  /* Este bloco define a cor do título do jogo */  
   h1 {
     color: #333;
   }
   
+  /* Este bloco define o tamanho da fonte e a sua posição */
   #estado-jogo {
     font-size: 24px;
     margin-bottom: 20px;
   }
   
+  /* Este bloco define o tamanho da fonte e a sua posição */
   #tentativas-restantes {
     font-size: 18px;
     margin-bottom: 10px;
   }
   
+  /* Este bloco define o tamanho da fonte, cor e a sua posição */
   #letras-incorretas {
     color: red;
     font-size: 18px;
     margin-bottom: 10px;
   }
   
+  /* Este bloco define o tamanho da fonte, cor e a sua posição */
   #entrada-letra {
     font-size: 16px;
     margin-top: 10px;
     padding: 5px;
   }
   
+  /* Este bloco define o tamanho da fonte, cor e a sua posição */  
   #verificar-letra {
     font-size: 16px;
     margin-top: 10px;
     padding: 5px 10px;
     cursor: pointer;
   }
+  
+  /* Este bloco define a cor de fundo do botão e quando o botão e precionado */
   #verificar-letra:active {
     background-color: blue;
     color: white;
   }
 
+  /* Este bloco define o tamanho da fonte, cor e a sua posição */
   #pessoa-enforcada {
     display: flex;
     flex-direction: column;
@@ -112,25 +123,3 @@
     margin-top: 20px;
     color: #333;
   }
-  
-  .cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
-    width: 30px;
-    height: 30px;
-    background-color: #333;
-    margin: 5px;
-  }
-  
-  #pessoa-enforcada .tronco {
-    width: 40px;
-    height: 60px;
-  }
-  
-  #pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
-    width: 15px;
-    height: 40px;
-  }
-  
-  #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
-    width: 20px;
-    height: 50px;
-  }  

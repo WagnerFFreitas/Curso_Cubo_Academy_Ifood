@@ -1,4 +1,4 @@
-/*Criação das pastes do enforcado*/
+/* Este bloco cria as pastes do enforcado */
 #pessoa-enforcada {
     display: flex;*/
     flex-direction: column;
@@ -8,6 +8,7 @@
     color: #333;
   }
   
+  /* Este bloco insere a cor preta no corpo do enforcado */
   .cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
     width: 30px;
     height: 30px;
@@ -19,41 +20,46 @@
     width: 40px;
     height: 60px;
   }
-      
+  
+  /* Este bloco adiciona o tamanho dos braços */
   #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
     width: 15px;
     height: 40px;
-    /*margin-top: -40px; /* Esta linha posiciona os braços ao lado do tronco*/
     position: relative; /* Adicionado para utilizar posicionamento relativo */
-    /*top: -70px; /* Posiciona os braços acima do tronco */
-
   }
   
+  /* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
   #pessoa-enforcada .braco-direito {
-    left: 30px; /* Adicionado para posicionar o braço direito à direita do tronco */
-    top: -70px; /* Posiciona os braços acima do tronco */
+    right: -29px; 
+    top: -70px; /* Alinha o braço ao ombro */
   }
 
+  /* Este bloco adiciona o posicionamento do braço esquerdo a esquerda do tronco */
   #pessoa-enforcada .braco-esquerdo {
-    /*width: -15px;*/
     left: -30px;
-    top: -120px; /* Posiciona os braços acima do tronco */
+    top: -120px; /* Alinha o braço ao ombro */
   }
   
   #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
     width: 20px;
     height: 50px;
+    position: relative; /* Adicionado para utilizar posicionamento relativo */
     /*display: flex; /*Esta linha foi ascrecentada*/
   }
   
+    /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
   #pessoa-enforcada .perna-direita {
-    margin-left: 50px; /* Esta linha posiciona a perna direita ao lado da perna esquerda */
-    /*width: 20px;*/
-    height: 150px;
-
+    right: -15px; 
+    top: -110px; /* Alinha a perna embaixo do tronco a direita */
   }
 
-  /* Restante do arquivo forca.CSS do Meu_Primeiro_Jogo */
+  /* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
+    #pessoa-enforcada .perna-esquerda {
+      left: -16px;
+      top: -170px; /* Alinha a perna embaixo do tronco a esquerda */
+    }
+
+  /* Todos os blocos abaixo são do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado*/
 
   body {
     font-family: Arial, sans-serif;

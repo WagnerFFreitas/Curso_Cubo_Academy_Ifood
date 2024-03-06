@@ -8,7 +8,6 @@
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio I
 
-
 let pesoladoA1 = 10;
 let pesoladoA2 = 5;
 let pesoladoB1 = 20;

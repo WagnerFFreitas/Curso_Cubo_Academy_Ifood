@@ -30,6 +30,6 @@ function solucao(pesoladoA1, pesoladoA2, pesoladoB1, pesoladoB2) {
  
   // A linha abaixo se os pesos em ambos os lados são iguais
   else {
-    console.log("EQUILIBRIO");
+    console.log("EQUILÍBRIO");
   }
 }

@@ -8,12 +8,12 @@
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio
 
-
 // pesoladoB2 = 18
 // Se a soma do lado A soma do lado B -> inclinado para o lado A
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio
 
+//Neste exemplo como as variáveis nao sao alteradas no decorrer do código foi utilizado o CONST
 const pesoladoA1 = 10;
 const pesoladoA2 = 5;
 const pesoladoB1 = 20;

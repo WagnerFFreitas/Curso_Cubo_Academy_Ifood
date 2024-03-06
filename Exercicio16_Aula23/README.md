@@ -1,9 +1,7 @@
 # Exercicio17_Aula23
 Aula 23_Logica de programação da IFood_Cubo Academy
 
-**Praticando   e Array**
-
-# Jogo da balança
+# Este Jogo da balança foi alterado usando conhecimento adquirido e pesquisando em canais de programador  
 
 ***Problema***
 Crie um programa para dizer para qual lado a balança vai inclinar quando coloca-se dois corpos de cada lado.

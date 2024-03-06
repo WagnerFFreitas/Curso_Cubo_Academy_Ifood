@@ -65,7 +65,7 @@ body {
     width: 80px;
     height: 40px;
     background-color: #ccc;
-    transform: translateX(-50%); /* Centralizar os pratos */
+    transform: translateY(50%); /* Centralizar os pratos verticalmente */
 }
 
 .prato-esquerdo {
@@ -78,13 +78,36 @@ body {
 
 .equilibrio .prato-esquerdo,
 .equilibrio .prato-direito {
-    transform: translateX(-50%);
+    transform: translateY(50%);
 }
 
 .inclina-esquerda .prato-esquerdo {
-    transform: translateX(-150%);
+    transform: translateY(-50%);
 }
 
 .inclina-direita .prato-direito {
-    transform: translateX(50%);
+    transform: translateY(-50%);
+}
+
+.inclina-esquerda .prato-direito,
+.inclina-direita .prato-esquerdo {
+    transform: translateY(50%);
+}
+
+.linha-esquerda,
+.linha-direita {
+    position: absolute;
+    bottom: 60px; /* Ajuste conforme necessário */
+    width: 20px;
+    height: 60px;
+    background-color: #555; /* Cor da linha da balança */
+    transform: translateX(-50%);
+}
+
+.linha-esquerda {
+    left: 25%;
+}
+
+.linha-direita {
+    left: 75%;
 }

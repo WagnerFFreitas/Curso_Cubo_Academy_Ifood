@@ -1,3 +1,6 @@
+Exercicio17_Aula23
+Aula 23_Logica de programação da IFood_Cubo Academy
+
 Balança
 Problema
 Crie um programa para dizer para qual lado a balança vai inclinar quando coloca-se dois corpos de cada lado.

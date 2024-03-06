@@ -6,17 +6,17 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f5f9; /* Cor de fundo azul claro */
-}
-
-.container {
+  }
+  
+  .container {
     text-align: center;
-}
-
-.blue-label {
+  }
+  
+  .blue-label {
     color: #3498db; /* Cor azul clara para as letras */
-}
-
-.blue-button {
+  }
+  
+  .blue-button {
     margin-top: 10px;
     padding: 8px 16px;
     font-size: 16px;
@@ -25,89 +25,9 @@ body {
     color: white; /* Cor branca para as letras no botão */
     border: none;
     border-radius: 4px;
-}
-
-.blue-button:hover {
+  }
+  
+  .blue-button:hover {
     background-color: #217dbb; /* Cor azul um pouco mais escura ao passar o mouse sobre o botão */
-}
-
-.balanca {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin-top: 20px;
-}
-
-.base {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 100px;
-    height: 20px;
-    background-color: #555;
-    transform: translateX(-50%);
-}
-
-.barra {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 20px;
-    height: 100%;
-    background-color: #555;
-    transform: translateX(-50%);
-}
-
-.prato-esquerdo,
-.prato-direito {
-    position: absolute;
-    bottom: 20px;
-    width: 80px;
-    height: 40px;
-    background-color: #ccc;
-    transform: translateY(50%); /* Centralizar os pratos verticalmente */
-}
-
-.prato-esquerdo {
-    left: 25%;
-}
-
-.prato-direito {
-    left: 75%;
-}
-
-.equilibrio .prato-esquerdo,
-.equilibrio .prato-direito {
-    transform: translateY(50%);
-}
-
-.inclina-esquerda .prato-esquerdo {
-    transform: translateY(-50%);
-}
-
-.inclina-direita .prato-direito {
-    transform: translateY(-50%);
-}
-
-.inclina-esquerda .prato-direito,
-.inclina-direita .prato-esquerdo {
-    transform: translateY(50%);
-}
-
-.linha-esquerda,
-.linha-direita {
-    position: absolute;
-    bottom: 60px; /* Ajuste conforme necessário */
-    width: 20px;
-    height: 60px;
-    background-color: #555; /* Cor da linha da balança */
-    transform: translateX(-50%);
-}
-
-.linha-esquerda {
-    left: 25%;
-}
-
-.linha-direita {
-    left: 75%;
-}
+  }
+  

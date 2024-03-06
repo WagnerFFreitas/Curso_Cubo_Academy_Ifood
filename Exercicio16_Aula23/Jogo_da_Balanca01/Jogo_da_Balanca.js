@@ -1,3 +1,4 @@
+//Logica do Jogo da balança
 // pesoLadoA1= 10
 // pesoLadoA2= 5
 // pesoLadoB1= 20
@@ -12,11 +13,11 @@ let pesoladoA1 = 10;
 let pesoladoA2 = 5;
 let pesoladoB1 = 20;
 let pesoladoB2 = 10;
-let somaladoA = pesoLadoA1+ pesoLadoA2;
-let somaladoB = pesoLadoB1+ pesoLadoB2;
-if (somaLadoA > somaLadoB) {
+let somaladoA = pesoladoA1+ pesoladoA2;
+let somaladoB = pesoladoB1+ pesoladoB2;
+if (somaladoA > somaladoB) {
     console.log("LADO A")
-    } else if (sona LadoB > soma LadoA) {
+    } else if (somaladoB > somaladoA) {
     console.log("LADO B")
     } else {
     console.log("EQUILIBRIO")

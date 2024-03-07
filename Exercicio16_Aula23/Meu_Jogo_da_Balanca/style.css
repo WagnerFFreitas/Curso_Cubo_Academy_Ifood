@@ -5,7 +5,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f5f9; /* Cor de fundo azul claro */
+    background-color: #f0f5f9; /* Esta linha define a cor do fundo como azul claro no botão VERIFICAR*/
   }
   
   .container {

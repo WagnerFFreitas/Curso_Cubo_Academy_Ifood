@@ -1,11 +1,12 @@
-Exercicio17_Aula23
+# Exercicio17_Aula23
 Aula 23_Logica de programação da IFood_Cubo Academy
 
-Balança
-Problema
-Crie um programa para dizer para qual lado a balança vai inclinar quando coloca-se dois corpos de cada lado.
+**Exercicio do jogo da balança**
 
-Entrada
+***Problema***
+    Crie um programa para dizer para qual lado a balança vai inclinar quando coloca-se dois corpos de cada lado.
+
+***Entrada***
 A entrada do seu programa é composta por quatro variáveis:
 pesoladoA1: peso de um dos corpos colocados no lado A da balança;
 • pesoladoA2: peso do outro corpo colocado no lado A da balança;

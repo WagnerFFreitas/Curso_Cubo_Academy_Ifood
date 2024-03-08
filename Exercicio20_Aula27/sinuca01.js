@@ -5,8 +5,8 @@
 // Se a soma do A for maior > JOGADORA GANHOU
 // Se não, verifico se a soma do B é maior -> JOGADOR B GANHOU
 // Caso contrário -> EMPATE
-let jogadorA= [4, 7, 1, 10, 15]
-let soma JogadorA = 0
+let jogadorA= [4, 7, 1, 10, 15];
+let soma JogadorA = 0;
 for (let iten of jogadorA) {
   sona Jogador A = soma JogadorA + item
 }

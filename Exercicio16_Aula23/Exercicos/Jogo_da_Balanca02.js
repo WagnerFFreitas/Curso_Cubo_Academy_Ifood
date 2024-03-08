@@ -3,17 +3,10 @@
 // pesoLadoA2= 5
 // pesoLadoB1= 20
 // pesoLadoB2 = 10
-
 // Se a soma do lado A soma do lado B -> inclinado para o lado A
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio
-
-// pesoladoB2 = 18
-// Se a soma do lado A soma do lado B -> inclinado para o lado A
-// Se não, soma do lado B > soma do lado A -> inclinado para o lado
-// Caso contrário -> equilíbrio
-
-//Neste exemplo como as variáveis nao sao alteradas no decorrer do código foi utilizado o CONST
+//Neste exemplo como as variáveis não são alteradas no decorrer do código foi utilizado CONST
 
 // Neste bloco abaixo e definido os pesos para cada lado
 const pesoladoA1 = 10;

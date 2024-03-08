@@ -3,7 +3,6 @@
 // pesoLadoA2= 5
 // pesoLadoB1= 20
 // pesoLadoB2 = 10
-
 // Se a soma do lado A soma do lado B -> inclinado para o lado A
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio I

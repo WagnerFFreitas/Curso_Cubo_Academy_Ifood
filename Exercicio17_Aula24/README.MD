@@ -1,3 +1,12 @@
+Aula 24_Logica de programação da IFood_Cubo Academy
+
+Este exercício da calculadora da foi alterado usando conhecimento adquirido é interagindo com outros programadores na internet
+
+***Algoritmo da calculadora***
+
+
+
+
 ** Basedo nos exercícios da aula Certamente! Vamos simplificar a lógica do código:
 
 1. **HTML (`index.html`):**

@@ -6,21 +6,25 @@ Aula 24_Logica de programação da IFood_Cubo Academy
 ***Algoritmo da calculadora***
 
 
+Claro, vou descrever o algoritmo do programa em passos simples:
 
+1. **Obtenção de Entradas:**
 
-** Basedo nos exercícios da aula Certamente! Vamos simplificar a lógica do código:
+   - O usuário insere dois números nos campos `Número 1` e `Número 2`.
+   - O usuário escolhe uma operação na lista suspensa `Operação`.
 
-1. **HTML (`index.html`):**
-   - Cria uma página web com campos para inserir dois números, uma lista suspensa para escolher uma operação e um botão para calcular.
-   - Exibe o resultado da operação.
+2. **Validação de Entradas:**
 
-2. **CSS (`style.css`):**
-   - Aplica estilos simples para melhorar a apresentação da calculadora na página.
+   - Verifica se ambos os números inseridos são válidos (números reais).
+   - Garante que uma operação válida foi selecionada.
 
-3. **JavaScript (`script.js`):**
-   - Define uma função `calcular()` que é chamada quando o botão "Calcular" é clicado.
-   - Obtém os valores inseridos nos campos (`Número 1` e `Número 2`) e a operação selecionada.
-   - Verifica se os valores são válidos.
-   - Realiza a operação selecionada e exibe o resultado na página.
+3. **Execução da Operação:**
+   - Se as entradas são válidas, o programa prossegue com a execução da operação.
+   - Usa uma estrutura de switch-case para determinar a operação selecionada.
+   - Realiza a operação correspondente (soma, subtração, multiplicação ou divisão) nos dois números.
 
-Em resumo, a calculadora permite que você insira dois números, escolha uma operação e clique em "Calcular" para ver o resultado. O JavaScript lida com a lógica de cálculo e exibição, enquanto o HTML e o CSS fornecem a estrutura e o estilo da página.
+4. **Exibição do Resultado:**
+   - Se a operação for válida, o resultado é exibido na área designada da página.
+   - Se ocorrerem erros (como divisão por zero), mensagens apropriadas são exibidas.
+
+O algoritmo é orientado a eventos, desencadeado pelo clique no botão "Calcular". Ele assegura que as entradas sejam válidas antes de executar a operação escolhida e exibe o resultado na página.

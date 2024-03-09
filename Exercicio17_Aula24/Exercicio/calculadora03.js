@@ -1,3 +1,4 @@
+// Logica do programa da calculadora
 // numero1 = 10
 // numero2 = 5
 // operacao = "soma"

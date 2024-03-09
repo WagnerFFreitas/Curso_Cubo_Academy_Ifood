@@ -1,3 +1,4 @@
+// Logica do programa da calculadora
 // numero1 = 10
 // numero2 = 5
 // operacao = "soma"
@@ -6,6 +7,7 @@
 //Se não, verificar se é uma multiplicacao -> numero1 x numero2
 //Se não, verificar se é uma divisao -> numero1 / numero2
 
+//Bloco abaixo cria as variáveis 
 let operacao = "divisao"
 let numero1 = 10
 let numero2 = 5

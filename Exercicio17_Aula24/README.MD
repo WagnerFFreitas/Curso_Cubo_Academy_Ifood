@@ -1,6 +1,7 @@
+#Exercicio17_Aula24
 Aula 24_Logica de programação da IFood_Cubo Academy
 
-Este exercício da calculadora da foi alterado usando conhecimento adquirido é interagindo com outros programadores na internet
+**Este exercício da calculadora da foi alterado usando conhecimento adquirido é interagindo com outros programadores na internet.**
 
 ***Algoritmo da calculadora***
 

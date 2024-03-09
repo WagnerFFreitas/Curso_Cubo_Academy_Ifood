@@ -7,9 +7,11 @@
 //Se não, verificar se é uma multiplicacao -> numero1 x numero2
 //Se não, verificar se é uma divisao -> numero1 / numero2
 
+//Bloco abaixo cria as variáveis
 let operacao = "soma";
 let numero1 = 10;
 let numero2 = 5;
+
 
 if (operacao === "soma") {
   console.log(numero1 + numero2)

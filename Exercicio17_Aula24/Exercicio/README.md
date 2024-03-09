@@ -6,31 +6,23 @@ Aula 24_Logica de programação da IFood_Cubo Academy
 
 ***Foram feito três exemplos: calculadora01, calculadora02 e calculadora03
 
-**Logica do programa calculadora**
-
 ***Problema***
 
-■Você foi contratado por uma empresa de contabilidade para criar um programa para ajudá-los nos cálculos que são
+• Você foi contratado por uma empresa de contabilidade para criar um programa para ajudá-los nos cálculos que são
 realizados diariamente.
-■ Você ficou responsável por implementar uma calculadora, uma das funcionalidades do produto.
+• Você ficou responsável por implementar uma calculadora, uma das funcionalidades do produto.
 
 ***Entrada***
-A entrada do programa é composta por três variáveis:
-• numero1: indica o primeiro elemento do cálculo;
-asforman
 
+  A entrada do programa é composta por três variáveis:
 
-
-Entrada
-A entrada do programa é composta por três variáveis:
 • numero1: indica o primeiro elemento do cálculo;
 • numero2: indica o segundo elemento do cálculo;
 • operacao: indica qual cálculo deve ser feito com os números. Os possíveis valores são: "soma", "su
 "divisao", "multiplicacao".
 
-• operacao: indica qual cálculo deve ser feito com os números. Os possíveis valores são: "soma", "subtracao",
-"divisao", "multiplicacao".
-Saída
+***Saída***
+
 Você deve retornar o resultado.
 
 

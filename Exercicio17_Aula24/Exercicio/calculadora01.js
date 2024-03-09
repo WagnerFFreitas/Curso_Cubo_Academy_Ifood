@@ -1,3 +1,4 @@
+// Logica do programa da calculadora
 // numero1 = 10
 // numero2 = 5
 // operacao = "soma"
@@ -9,7 +10,6 @@
 let operacao = "soma"
 let numero1 = 10
 let numero2 = 5
-
 
 if (operacao === "soma") {
   console.log(numero1 + numero2)

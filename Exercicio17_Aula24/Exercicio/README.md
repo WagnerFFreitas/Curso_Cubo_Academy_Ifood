@@ -4,7 +4,7 @@ Aula 24_Logica de programação da IFood_Cubo Academy
 
 **Exercicio da calculadora**
 
-***Foram feito três exemplos: calculadora01, calculadora02 e calculadora03
+***Foram feito três exemplos: calculadora01, calculadora02 e calculadora03***
 
 ***Problema***
 
@@ -26,13 +26,6 @@ realizados diariamente.
 Você deve retornar o resultado.
 
 
-// numero1 = 10
-// numero2 = 5
-operacao = "soma"
-Verificar se a operacao é uma soma -> numero1 + numero2
-Se não, verificar se é uma subtracao -> numero1- numero2
-// Se não, verificar se é uma multiplicacao -> numero1 x numero2
-// Se não, verificar se é uma divisao -> numero1/ numero2
 
 let operacao = "multiplicacao"
 let numero1 = 10

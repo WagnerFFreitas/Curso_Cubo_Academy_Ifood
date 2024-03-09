@@ -6,15 +6,11 @@ Aula 24_Logica de programação da IFood_Cubo Academy
 ***Algoritmo da calculadora***
 
 
-Claro, vou descrever o algoritmo do programa em passos simples:
-
 1. **Obtenção de Entradas:**
-
    - O usuário insere dois números nos campos `Número 1` e `Número 2`.
    - O usuário escolhe uma operação na lista suspensa `Operação`.
 
 2. **Validação de Entradas:**
-
    - Verifica se ambos os números inseridos são válidos (números reais).
    - Garante que uma operação válida foi selecionada.
 
@@ -26,5 +22,3 @@ Claro, vou descrever o algoritmo do programa em passos simples:
 4. **Exibição do Resultado:**
    - Se a operação for válida, o resultado é exibido na área designada da página.
    - Se ocorrerem erros (como divisão por zero), mensagens apropriadas são exibidas.
-
-O algoritmo é orientado a eventos, desencadeado pelo clique no botão "Calcular". Ele assegura que as entradas sejam válidas antes de executar a operação escolhida e exibe o resultado na página.

@@ -3,6 +3,7 @@ Aula 24_Logica de programação da IFood_Cubo Academy
 
 
 **Exercicio da calculadora**
+
 ***Foram feito três exemplos: calculadora01, calculadora02 e calculadora03
 
 **Logica do programa calculadora**

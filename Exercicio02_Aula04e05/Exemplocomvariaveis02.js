@@ -1,6 +1,3 @@
-//Obs:
-//Sempre ficar atento a letras maiúsculas e minusculas.
-//Sempre finalizar uma linha de comando com ponto e virgula exemplo : console.log("Ola mundo !");
 const endereco="Avenida 1";
 //CONST : O seu valor após ser fixado nao pode ser alterado no decorrer do programa. 
 let precodoleite=9.5;

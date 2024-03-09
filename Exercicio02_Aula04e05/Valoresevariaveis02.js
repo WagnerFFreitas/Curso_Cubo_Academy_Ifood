@@ -1,6 +1,6 @@
 let nome="Wagner";
 const idade=50;
-//Se for usado o comando CONST para determinar uma variável ela não poderá ser mudada
+//O comando CONST não permite que a variável seja alterada no decorrer do código
 
 console.log(nome);
 console.log(idade);

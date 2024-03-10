@@ -1,6 +1,5 @@
 const endereco="Avenida 1"; // CONST : O seu valor após ser fixado nao pode ser alterado no decorrer do programa. 
 
-
 let precodoleite = 9.5;
 let precodoqueijo = 30;
 // LET : O seu valor pode ser alterado de acordo coma a necessidade.

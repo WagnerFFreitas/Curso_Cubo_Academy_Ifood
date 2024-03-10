@@ -1,4 +1,4 @@
-// Este código mostra como calcular a potencia.1
-let valor = 3;
+// Este código mostra como calcular de potencia.
 
+let valor = 3;
 console.log (valor ** 2);

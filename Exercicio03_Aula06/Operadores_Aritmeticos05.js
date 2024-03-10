@@ -1,4 +1,4 @@
 // Este código soma dois textos ou seja junta os dois textos.
-let valor = "Ola";
 
+let valor = "Ola";
 console.log (valor + "!");

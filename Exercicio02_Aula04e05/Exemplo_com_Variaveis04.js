@@ -1,8 +1,7 @@
 const endereco = "Avenida 1";
 let precodoleite = 9.5;
 let precodoqueijo = 30;
-let precodapizza = 15;
-//A variável precodapizza foi definida com o valor 15.
+let precodapizza = 15; // A variável precodapizza foi definida com o valor 15.
 
 console.log ("Preço do leite: ", precodoleite);
 console.log ("Preço do queijo: ", precodoqueijo);

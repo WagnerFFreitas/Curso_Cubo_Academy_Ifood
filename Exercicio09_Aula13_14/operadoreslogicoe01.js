@@ -1,4 +1,4 @@
-// A logica do programa
+8// A logica do programa
 // condicionais - IF e Else
 // Menores de 18 --> Menor de idade (meia)
 // Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
@@ -15,12 +15,12 @@ if (idade < 18){
     // Adulto
     if (temcarteirinha === true){
         // Adulto tem carteirinha
-        console.log("Meia");
+        console.log ("Meia");
     } else {
         // Adulto sem carteirinha
-        console.log("Inteira");
+        console.log ("Inteira");
     }
 } else {
     // Idoso
-    console.log("Meia");
+    console.log ("Meia");
 }

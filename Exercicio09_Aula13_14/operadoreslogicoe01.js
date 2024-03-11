@@ -10,7 +10,7 @@ const temcarteirinha = true;
 
 if (idade < 18){
     // Menor de idade
-    console.log("Meia");
+    console.log ("Meia");
 } else if (idade <= 60){
     // Adulto
     if (temcarteirinha === true){

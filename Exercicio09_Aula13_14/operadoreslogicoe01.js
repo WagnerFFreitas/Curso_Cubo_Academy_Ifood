@@ -1,23 +1,24 @@
-//condicionais - IF e Else
-//Menores de 18 --> Menor de idade (meia)
-//Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
-//Maiores de 60 anos --> Idoso (meia)
+// A logica do programa
+// condicionais - IF e Else
+// Menores de 18 --> Menor de idade (meia)
+// Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
+// Maiores de 60 anos --> Idoso (meia)
 
 const idade = 75;
 const temcarteirinha = true;
 if (idade < 18){
-    //Menor de idade
+    // Menor de idade
     console.log("Meia");
 } else if (idade <= 60){
-    //Adulto
+    // Adulto
     if (temcarteirinha === true){
-        //Adulto tem carteirinha
+        // Adulto tem carteirinha
         console.log("Meia");
     } else {
-        //Adulto sem carteirinha
+        // Adulto sem carteirinha
         console.log("Inteira");
     }
 } else {
-    //Idoso
+    // Idoso
     console.log("Meia");
 }

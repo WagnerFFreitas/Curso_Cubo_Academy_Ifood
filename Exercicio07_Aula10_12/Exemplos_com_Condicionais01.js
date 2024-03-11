@@ -13,8 +13,8 @@ if (precodoproduto02 < 3){
     if (precodoproduto02 => 1.5){
     console.log ("Comprei o produto 02");
     }else{
-    console.log("Algo esta errado com o produto 02");
+    console.log ("Algo esta errado com o produto 02");
     }
 }
 
-console.log("Comprei o produto 03"); // Informa que e para comprar o produto
+console.log ("Comprei o produto 03"); // Informa que e para comprar o produto

@@ -6,7 +6,7 @@ if (condicao) {
     
     // Sendo falso a variável entra no ELSE.
 } else {
-    console.log("é falso");
+    console.log ("é falso");
 }
 
-console.log("acabou");
+console.log ("acabou");

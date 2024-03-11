@@ -7,9 +7,9 @@ function solucao (numero, x) {
     }
 }
 
-//let numero = parseInt(prompt("Digite o número: "));
-//let x = parseInt(prompt("Digite o valor de X: "));
-//As linhas acima so funcionam dentro do ambiente do desafio da Cubo Academy
+// let numero = parseInt(prompt("Digite o número: "));
+// let x = parseInt(prompt("Digite o valor de X: "));
+// As linhas acima so funcionam dentro do ambiente do desafio da Cubo Academy
 let numero = 20;
 let x = 5;
 let resultado = solucao (numero, x);

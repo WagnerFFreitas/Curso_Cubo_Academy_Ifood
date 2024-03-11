@@ -1,3 +1,4 @@
+// O bloco abaixo cria as variáveis.
 let precodoproduto01 = 19.29;
 let precodoproduto02 = 0.80;
 let precodoproduto03 = 4.85;

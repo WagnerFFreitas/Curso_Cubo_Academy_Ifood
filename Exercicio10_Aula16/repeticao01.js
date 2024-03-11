@@ -7,7 +7,7 @@ let numero = 1;
 while (numero <= 1000){
   // NUMERO <= 1000 Vai percorrer de 1 até que seja menor e igual a 1000
   if (numero % 17 === 0){
-  // O numero foi substituído por uma variável NUMERO 
+  // O numero foi substituído por uma variável NUMERO
   // O simbolo % significa múltiplo
   resposta += 1;   
   } 

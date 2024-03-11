@@ -4,8 +4,10 @@
 // Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
 // Maiores de 60 anos --> Idoso (meia)
 
+// Bloco abaixo cria as variáveis.
 const idade = 75;
 const temcarteirinha = true;
+
 if (idade < 18){
     // Menor de idade
     console.log("Meia");

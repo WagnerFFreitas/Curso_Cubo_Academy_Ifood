@@ -1,4 +1,4 @@
-// Logica do programa.
+// Logica do codigo.
 // condicionais - IF e Else
 // Menores de 18 --> Menor de idade (meia)
 // Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
@@ -14,7 +14,7 @@ const ehadulta = idade >= 18 && idade <= 60; // Idade maior ou igual (&& e mesmo
 
 if (ehadulta && temcarterianha === false){
 // if (ehadulta && !temcarterianha) --> O sibolo ! e o mesmo que NÃO
-    console.log("Interia");
+    console.log ("Interia");
 } else {
-    console.log("Meia");
+    console.log ("Meia");
 } 

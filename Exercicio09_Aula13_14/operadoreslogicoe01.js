@@ -1,4 +1,4 @@
-8// A logica do programa
+// A logica do codigo.
 // condicionais - IF e Else
 // Menores de 18 --> Menor de idade (meia)
 // Entre 18 e 60 --> Adultos (meio apenas com carteirinha)

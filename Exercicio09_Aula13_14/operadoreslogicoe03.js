@@ -1,4 +1,4 @@
-// Logica do programa.
+// Logica do codigo.
 // Menores de 18 --> Menor de idade (meia)
 // Entre 18 e 60 --> Adultos (meio apenas com carteirinha)
 //Maiores de 60 anos --> Idoso (meia)

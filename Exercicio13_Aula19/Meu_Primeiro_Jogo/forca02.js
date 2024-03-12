@@ -5,7 +5,7 @@ var tentativas = 6; // Criação da variável que contem a quantidade de tentati
 var letrascorretas = []; // Criação da varável que armazena as letras corretas do jogo da forca.
 var letrasincorretas = []; // Criação da varável que armazena as letras incorretas do jogo da forca.
 
-// O bloc abaixo cria a função que é chamada quando o jogador tenta uma letra do jogo da forca.
+// O bloco abaixo cria a função que é chamada quando o jogador tenta uma letra do jogo da forca.
 function verificarletra () {
   var inputElement = document.getElementById ('entrada-letra');
   var letra = inputElement.value.toLowerCase ();

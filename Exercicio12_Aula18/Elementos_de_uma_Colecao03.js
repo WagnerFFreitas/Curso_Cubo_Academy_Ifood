@@ -1,11 +1,16 @@
+// Logica do código:
 // Informa quantas vogais minusculas e ou maiúsculas em uma palavra
 // para isso e necessário Informa no código as vogais 
 // maiúsculas e minúsculas, pois os computadores fazem
 // diferença.
+
+// O bloco abaixo cria as variáveis.
 const palavra = "Abacate";
 let numeroDeVogais = 0;
+
+// O bloco abaixo itera cada letra na palavra.
 for (const letra of palavra) {
-// console. Log (Letra);
+// Verifica se a letras sao uma vogal minúscula ou máscula.
     if (letra === "a") { numeroDeVogais += 1; }
     if (letra === "e") { numeroDeVogais += 1; }
     if (letra === "i") { numeroDeVogais += 1; }
@@ -17,4 +22,4 @@ for (const letra of palavra) {
     if (letra === "O") { numeroDeVogais += 1; }
     if (letra === "U") { numeroDeVogais += 1; }
 }
-console.log(numeroDeVogais);
+console.log(numeroDeVogais); // Exibe o total de vogais na palavra.

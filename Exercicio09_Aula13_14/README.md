@@ -7,6 +7,8 @@ Aula 13_Logica de programação da IFood_Cubo Academy
 
     || (OU) Ele retorna true se pelo menos um dos valores for verdadeiro. Apenas se ambos os valores forem falsos, o resultado será false.
 
-    expressao01 && expressao02 - Retorna verdadeiro caso ambas as expressoes sejam verdadeira.
+***Tipo de estrutura:***
+    
+    expressao01 && expressao02 - Retorna verdadeiro caso ambas as expressões sejam verdadeira.
 
-    expressao01 || expressao02 - Retorna verdadeiro caso qualquer expressao seja verdadeiro.
+    expressao01 || expressao02 - Retorna verdadeiro caso qualquer expressão seja verdadeiro.

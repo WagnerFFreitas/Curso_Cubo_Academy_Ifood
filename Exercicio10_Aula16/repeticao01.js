@@ -1,4 +1,4 @@
-// Este codigo verifica quantos numeros entre 1 e 1000 são multiplos de 17
+// Este código verifica quantos números entre 1 e 1000 são múltiplos de 17.
 
 // Bloco abaixo cria as variáveis.
 let resposta = 0;

@@ -11,7 +11,7 @@ const rendimentoanual = 0.1;
 let conta=0;
 let meses=0;
 
-// O bloco abaixo efetua um loop enquanto o saldo na conta não atingir o objetivo
+// O bloco abaixo efetua um loop enquanto o saldo na conta não atingir o objetivo.
 while (conta<objetivo){
     conta+=deposito;
     conta+=conta*rendimentoanual/12;

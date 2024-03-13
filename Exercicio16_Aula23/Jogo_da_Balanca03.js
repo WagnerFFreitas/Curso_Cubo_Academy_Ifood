@@ -7,27 +7,24 @@
 // Se não, soma do lado B > soma do lado A -> inclinado para o lado
 // Caso contrário -> equilíbrio
 
-// A linha abaixo cria uma função que compara pesos em dois lados (A e B)
-function solucao(pesoladoA1, pesoladoA2, pesoladoB1, pesoladoB2) {
+function solucao (pesoladoA1, pesoladoA2, pesoladoB1, pesoladoB2) { // Esta linha cria uma função SOLUCAO que compara pesos em dois lados (A e B)
   
-// A linha abaixo calcula a soma dos pesos do lado A
-  const somaladoA = pesoladoA1 + pesoladoA2;
+  const somaladoA = pesoladoA1 + pesoladoA2; // Esta linha cria a variável SOMALADOA que calcula a soma dos pesos do lado A.
 
-  // A linha abaixo calcula a soma dos pesos do lado B
-  const somaladoB = pesoladoB1 + pesoladoB2;
+  const somaladoB = pesoladoB1 + pesoladoB2; // Esta linha cria a variável SOMALADOB que calcula a soma dos pesos do lado B.
 
-  // A linha abaixo verifica se o lado A tem um peso maior que o lado B
+  // O bloco abaixo verifica se o lado A tem um peso maior que o lado B.
   if (somaladoA > somaladoB) {
-    console.log("LADO A");
+    console.log ("LADO A");
   } 
   
-  // A linha abaixo informa se o lado B tem um peso maior que o lado A
+  // O bloco abaixo verifica se o lado B tem um peso maior que o lado A.
   else if (somaladoB > somaladoA) {
-    console.log("LADO B");
+    console.log ("LADO B");
   }
  
-  // A linha abaixo se os pesos em ambos os lados são iguais
+  // O bloco abaixo verifica se os pesos em ambos os lados são iguais.
   else {
-    console.log("EQUILÍBRIO");
+    console.log ("EQUILÍBRIO");
   }
 }

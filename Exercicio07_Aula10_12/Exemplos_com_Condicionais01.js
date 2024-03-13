@@ -5,7 +5,7 @@ let precodoproduto03 = 4.85;
 
 // Se o produto 01 for menor que R$18,00 comprar, nao foi incluso a condicional.
 if (precodoproduto01 <= 18){
-console.log("Comprei o produto 01");
+console.log ("Comprei o produto 01");
 }
 
 // Se o produto 02 for menor que R$3,00 e maior ou igual a R$1.5 comprar, e se for menor que R$1.5 informar que algo esta errado.

@@ -19,7 +19,7 @@ console.log (`Tipo da variável 'texto': ${typeof texto}`);
 console.log (`Tipo da variável 'vazia': ${typeof vazia}`);
 console.log (`Tipo da variável 'verdade': ${typeof verdade}`);
 
-console.log("--------------------------------------"); // Separação visual.
+console.log ("--------------------------------------"); // Separação visual.
 
 // O bloco abaixo e a 1ª comparação de valores.
 console.log ("É maior? ", numero > 5436);
@@ -27,7 +27,7 @@ console.log ("É maior ou igual? ", numero >= 5436);
 console.log ("É menor? ", numero < 10000);
 console.log ("É menor ou igual? ", numero <= 5436);
 
-console.log("--------------------------------------"); // Separação visual.
+console.log ("--------------------------------------"); // Separação visual.
 
 // O bloco abaixo e o 2ª que sera feito uma comparação.
 console.log ("É igual? ", numero === 900);

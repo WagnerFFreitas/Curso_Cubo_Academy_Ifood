@@ -1,7 +1,7 @@
 # Exercicio13_Aula20
 Aula 19_Logica de programação da IFood_Cubo Academy
 
-**Função Este jogo da forca e o aprimoramento do Meu_Primeiro_Jogo, contendo um boneco sendo enforcado a cada letra incorreta e aceita também letras com acento**
+**Função deste jogo da forca e o aprimoramento do Meu_Primeiro_Jogo, contendo um boneco sendo enforcado a cada letra incorreta e aceita também letras com acento**
 
 ***Este é o algoritmo da lógica do jogo da forca, para uma descrição em português para um possível desenvolvimento em outra linguagem.***
 

@@ -7,11 +7,11 @@ let custo = 0; // Variável criada para calcular o gasto com os produtos.
 
 // Se o produto 01 for menor que R$18,00 comprar, não foi incluso a condicional.
 if (precodoproduto01 <= 18){
-    console.log("Comprei o produto 01"); // Na linha 9 e modificado o valor da variável.
+    console.log ("Comprei o produto 01"); // Na linha 9 e modificado o valor da variável.
     custo = custo + precodoproduto01;
 }
 
-//Se o produto 02 for menor que R$3,00 e maior ou igual a R$1.5 comprar, e se for menor que R$1.5 informar que algo esta errado.
+// Se o produto 02 for menor que R$3,00 e maior ou igual a R$1.5 comprar, e se for menor que R$1.5 informar que algo esta errado.
 if (precodoproduto02 < 3){
     if (precodoproduto02 => 1.5){
         console.log ("Comprei o produto 02"); // pode ser usado duas formas de calculo.

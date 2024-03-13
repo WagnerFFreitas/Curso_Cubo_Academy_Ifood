@@ -3,7 +3,7 @@ const palavra = "Guilherme";
 for (const letra of palavra) {
 console.log (letra);
 }
-//Tipo é extrutura de condição
+// Tipo é extrutura de condição
 // if (condição) {
 // }
 // while (condição) {

@@ -34,7 +34,7 @@ function verificarletra () {
   // A linha abaixo atualiza o jogo da forca.
   exibirestadojogo ();
 
-  // // O bloco abaixo verifica se o jogador venceu ou perdeu no jogo da forca.
+  // O bloco abaixo verifica se o jogador venceu ou perdeu no jogo da forca.
   if (tentativas > 0 && !verificarvitoria ()) {
     inputElement.value = "";
   } else {

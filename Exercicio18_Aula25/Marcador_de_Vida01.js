@@ -15,32 +15,33 @@
 let classe = 3;
 let vida = 80;
 let novavida = 0;
-  if (classe === 1) {
-     novaVida = vida - 20
-     if (novaVida <= 0) {
-     console.log("PERDEU")
+  
+if (classe === 1) {
+    novavida = vida - 20
+    if (novavida <= 0) {
+    console.log ("PERDEU")
   } else {
-    console.log(novaVida)
+    console.log (novavida)
   }
 } else if (classe === 2) {
-  novaVida = vida - 30
-  if (novaVida <= 0) {
-  console.log("PERDEU")
+  novavida = vida - 30
+  if (novavida <= 0) {
+  console.log ("PERDEU")
   } else {
-  console.log(novaVida)
+  console.log (novavida)
   }
 } else if (classe === 3) {
-  novaVida vida - 40
-  if (novaVida <= 0) {
-  console.log("PERDEU")
+  novavida = vida - 40
+  if (novavida <= 0) {
+  console.log ("PERDEU")
   } else {
-  console.log(novaVida)
+  console.log (novavida)
   }
 } else {
-  novaVida vida - 50
-  if (novaVida <= 0) {{
-  console.log("PERDEU")
+  novavida = vida - 50
+  if (novavida <= 0) {
+    console.log ("PERDEU")
   } else {
-  console.log(novaVida)
+    console.log (novavida)
   }
 }

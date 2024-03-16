@@ -1,23 +1,92 @@
-const fs = require('fs');
+var palavraselecionada; // Variável que armazena a palavra selecionada para o jogo.
+var tentativas = 6; // Quantidade de tentativas do jogo da forca.
+var letrascorretas = []; // Letras corretas já digitadas.
+var letrasincorretas = []; // Letras incorretas já digitadas.
 
-// Função para ler as palavras do arquivo
-function lerPalavrasDoArquivo(caminhoDoArquivo) {
-    try {
-        const data = fs.readFileSync(caminhoDoArquivo, 'utf8');
-        return data.split('\n'); // Divide o conteúdo em linhas para obter uma lista de palavras
-    } catch (err) {
-        console.error('Erro ao ler o arquivo:', err);
-        return [];
-    }
+// Função para carregar as palavras do arquivo JSON e iniciar o jogo
+function iniciarJogo() {
+  fetch('palavras.json')
+    .then(response => response.json())
+    .then(data => {
+      var palavras = data.palavras;
+      palavraselecionada = palavras[Math.floor(Math.random() * palavras.length)];
+      exibirestadojogo();
+    });
 }
 
-// Caminho para o arquivo de palavras
-const caminhoDoArquivo = 'palavras.txt';
+// Função para verificar se a letra está correta e atualizar o jogo
+function verificarletra() {
+  var inputElement = document.getElementById('entrada-letra');
+  var letra = inputElement.value.toLowerCase();
+  
+  if (!letra.match(/^[a-zà-ú]$/)) { 
+    alert("Por favor, insira uma letra válida.");
+    return;
+  }
 
-// Lista de palavras do arquivo
-const palavras = lerPalavrasDoArquivo(caminhoDoArquivo);
+  if (letrascorretas.includes(letra) || letrasincorretas.includes(letra)) {
+    alert("Você já tentou essa letra. Tente outra.");
+    return;
+  }
+  
+  if (palavraselecionada.includes(letra)) {
+    letrascorretas.push(letra);
+  } else {
+    letrasincorretas.push(letra);
+    tentativas--;
+    exibirenforcado();
+  }
+  
+  exibirestadojogo();
 
-// Seleção aleatória de uma palavra do jogo da forca
-const palavraselecionada = palavras[Math.floor(Math.random() * palavras.length)];
+  if (tentativas > 0 && !verificarvitoria()) {
+    inputElement.value = "";
+  } else {
+    if (verificarvitoria()) {
+      alert("Parabéns! Você venceu o jogo!");
+    } else {
+      alert("Fim de jogo. Você perdeu!\nA palavra correta era: " + palavraselecionada);
+    }
+    inputElement.disabled = true;
+  }
+}
 
-console.log('Palavra selecionada:', palavraselecionada);
+// Função para exibir as partes do enforcado
+function exibirenforcado() {
+  var partesEnforcado = ["cabeca", "tronco", "braco-direito", "braco-esquerdo", "perna-direita", "perna-esquerda"];
+  var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
+
+  pessoaEnforcadaElement.innerHTML = "";
+
+  partesEnforcado.slice(0, partesEnforcado.length - tentativas).forEach(function(parte) {
+    var parteElement = document.createElement('div');
+    parteElement.classList.add(parte);
+    pessoaEnforcadaElement.appendChild(parteElement);
+  });
+}
+
+// Função para exibir o estado atual do jogo
+function exibirestadojogo() {
+  var estadoatual = "";
+  for (var i = 0; i < palavraselecionada.length; i++) {
+    if (letrascorretas.includes(palavraselecionada[i])) {
+      estadoatual += palavraselecionada[i];
+    } else {
+      estadoatual += "_";
+    }
+    estadoatual += " ";
+  }
+
+  document.getElementById('estado-jogo').innerHTML = "Estado atual: " + estadoatual;
+  document.getElementById('tentativas-restantes').innerHTML = "Tentativas restantes: " + tentativas;
+  document.getElementById('letras-incorretas').innerHTML = "Letras incorretas: " + letrasincorretas.join(", ");
+}
+
+// Função para verificar se o jogador venceu o jogo
+function verificarvitoria() {
+  return palavraselecionada.split('').every(function(letra) {
+    return letrascorretas.includes(letra);
+  });
+}
+
+iniciarJogo();

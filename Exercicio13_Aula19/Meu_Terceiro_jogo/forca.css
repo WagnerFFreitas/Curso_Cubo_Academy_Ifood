@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#pessoa-enforcada {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
+  background-color: #000;
+}
+
+.cabeca {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tronco {
+  width: 10px;
+  height: 60px;
+}
+
+.braco-direito, .braco-esquerdo {
+  width: 40px;
+  height: 10px;
+}
+
+.braco-direito {
+  transform: rotate(45deg);
+}
+
+.braco-esquerdo {
+  transform: rotate(-45deg);
+}
+
+.perna-direita, .perna-esquerda {
+  width: 10px;
+  height: 40px;
+}
+
+.perna-direita {
+  margin-top: 10px;
+  transform: rotate(45deg);
+}
+
+.perna-esquerda {
+  margin-top: 10px;
+  transform: rotate(-45deg);
+}

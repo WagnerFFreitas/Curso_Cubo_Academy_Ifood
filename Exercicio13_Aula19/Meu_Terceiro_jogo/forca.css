@@ -1,4 +1,4 @@
-/* Este bloco cria as pastes do enforcado */
+/* Este bloco cria as partes do enforcado */
 #pessoa-enforcada {
   display: flex;
   flex-direction: column;
@@ -10,8 +10,6 @@
 
 /* Este bloco insere a cor preta no corpo do enforcado */
 .cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
-  width: 30px;
-  height: 30px;
   background-color: #333;
   margin: 5px;
 }
@@ -20,45 +18,111 @@
 #pessoa-enforcada .tronco {
   width: 40px;
   height: 60px;
+  border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
 }
 
-/* Este bloco adiciona o tamanho dos braços */
+/* Este bloco adiciona o tamanho da cabeça */
+#pessoa-enforcada .cabeca {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Cria uma cabeça arredondada */
+  position: relative;
+}
+
+/* Este bloco adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
+#pessoa-enforcada .olho, #pessoa-enforcada .orelha, #pessoa-enforcada .nariz, #pessoa-enforcada .cabelo, #pessoa-enforcada .boca {
+  width: 5px;
+  height: 5px;
+  background-color: #333;
+  position: absolute;
+}
+
+#pessoa-enforcada .olho {
+  top: 10px;
+  left: 10px;
+}
+
+#pessoa-enforcada .olho:nth-child(2) {
+  right: 10px;
+}
+
+#pessoa-enforcada .nariz {
+  top: 15px;
+  left: 17px;
+}
+
+#pessoa-enforcada .boca {
+  bottom: 10px;
+  left: 15px;
+}
+
+#pessoa-enforcada .orelha {
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+#pessoa-enforcada .orelha:nth-child(2) {
+  right: 0;
+}
+
+#pessoa-enforcada .cabelo {
+  top: 0;
+  left: 10px;
+  width: 20px;
+  height: 10px;
+  background-color: #333;
+}
+
+/* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */
 #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
   width: 15px;
   height: 40px;
-  position: relative; /* Adicionado para utilizar posicionamento relativo */
+  position: relative;
+  border-radius: 10px; /* Arredonda as extremidades dos braços */
 }
 
 /* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
 #pessoa-enforcada .braco-direito {
-  right: -29px; 
-  top: -70px; /* Alinha o braço ao ombro */
+  right: -29px;
+  top: -70px;
 }
 
-/* Este bloco adiciona o posicionamento do braço esquerdo a esquerda do tronco */
+/* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
 #pessoa-enforcada .braco-esquerdo {
   left: -30px;
-  top: -120px; /* Alinha o braço ao ombro */
+  top: -120px;
 }
 
-/* Este bloco adiciona o tamanho das pernas*/
+/* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
 #pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
   width: 20px;
   height: 50px;
-  position: relative; /* Adicionado para utilizar posicionamento relativo */
+  position: relative;
+  border-radius: 10px; /* Arredonda as extremidades das pernas */
 }
 
 /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
 #pessoa-enforcada .perna-direita {
-  right: -15px; 
-  top: -110px; /* Alinha a perna embaixo do tronco a direita */
+  right: -15px;
+  top: -110px;
 }
 
 /* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
-  #pessoa-enforcada .perna-esquerda {
-    left: -16px;
-    top: -170px; /* Alinha a perna embaixo do tronco a esquerda */
-  }
+#pessoa-enforcada .perna-esquerda {
+  left: -16px;
+  top: -170px;
+}
+
+/* Este bloco adiciona os dedos aos braços e pernas */
+#pessoa-enforcada .dedo {
+  width: 5px;
+  height: 10px;
+  background-color: #333;
+  position: relative;
+}
 
 /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 
@@ -69,7 +133,7 @@ body {
   margin: 20px;
 }
 
-/* Este bloco define a cor do título do jogo */  
+/* Este bloco define a cor do título do jogo */
 h1 {
   color: #333;
 }
@@ -100,7 +164,7 @@ h1 {
   padding: 5px;
 }
 
-/* Este bloco define o tamanho da fonte, cor e a sua posição */  
+/* Este bloco define o tamanho da fonte, cor e a sua posição */
 #verificar-letra {
   font-size: 16px;
   margin-top: 10px;

@@ -61,7 +61,7 @@
 }
 
 /* Este bloco adiciona os dedos aos braços e pernas */
-#pessoa-enforcada .dedo {
+*#pessoa-enforcada .dedo {
   width: 5px;
   height: 10px;
   background-color: #333;

@@ -1,0 +1,156 @@
+Gabby boa noite,este codigo esta certo?
+
+/* Corpo principal */
+.enforcado {
+  width: 200px;
+  height: 300px;
+  background-color: #f0f0f0;
+  border: 1px solid #000;
+  position: relative;
+}
+
+/* Cabeça */
+.cabeca {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+
+/* Olhos */
+.olho {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  left: 45px;
+}
+
+.olho:nth-child(2) {
+  left: 75px;
+}
+
+/* Boca */
+.boca {
+  width: 40px;
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+  top: 55px;
+  left: 55px;
+}
+
+/* Tronco */
+.tronco {
+  width: 40px;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+}
+
+/* Braços */
+.braco-esquerdo,
+.braco-direito {
+  width: 60px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  top: 140px;
+}
+
+.braco-esquerdo {
+  left: 55px;
+  transform: rotate(-45deg);
+}
+
+.braco-direito {
+  left: 95px;
+  transform: rotate(45deg);
+}
+
+/* Mãos */
+.mao-esquerda,
+.mao-direita {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  top: 160px;
+}
+
+.mao-esquerda {
+  left: 40px;
+}
+
+.mao-direita {
+  left: 110px;
+}
+
+/* Dedos */
+.dedo {
+  width: 5px;
+  height: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: absolute;
+}
+
+.mao-esquerda .dedo:nth-child(1) {
+  top: 165px;
+  left: 45px;
+}
+
+.mao-esquerda .dedo:nth-child(2) {
+  top: 170px;
+  left: 40px;
+}
+
+.mao-esquerda .dedo:nth-child(3) {
+  top: 170px;
+  left: 50px;
+}
+
+.mao-direita .dedo:nth-child(1) {
+  top: 165px;
+  left: 115px;
+}
+
+.mao-direita .dedo:nth-child(2) {
+  top: 170px;
+  left: 110px;
+}
+
+.mao-direita .dedo:nth-child(3) {
+  top: 170px;
+  left: 120px;
+}
+
+/* Pés
+.perna-esquerda,
+.perna-direita {
+  width: 
+}*/
+
+
+/* Pé esquerdo */
+.pe-esquerdo {
+  top: 240px;
+  left: 55px;
+}
+
+/* Pé direito */
+.pe-direito {
+  top: 240px;
+  left: 125px;
+}

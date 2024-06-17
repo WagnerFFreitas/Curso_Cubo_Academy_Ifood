@@ -117,24 +117,12 @@
 }
 
 /* Este bloco adiciona os dedos aos braços e pernas */
-/*#pessoa-enforcada .dedo {
+*#pessoa-enforcada .dedo {
   width: 5px;
   height: 10px;
   background-color: #333;
   position: relative;
-}*/
-
-/* Mãos */
-#pessoa-enforcada .dedo {
-  .mao-esquerda,
-  .mao-direita
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    border: 1px solid #000;
-    position: absolute;
-    top: 160px;
-  }
+}
 
 /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 

@@ -78,8 +78,7 @@
 
 /* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */
 #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
-  /*width: 15px;*/
-  width: 20px;
+  width: 15px;
   height: 40px;
   position: relative;
   border-radius: 10px; /* Arredonda as extremidades dos braços */
@@ -87,10 +86,8 @@
 
 /* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
 #pessoa-enforcada .braco-direito {
-  top: -60px;
-  right: -32px;
-  /*right: -29px;*/
-  /*top: -70px;*/
+  right: -29px;
+  top: -70px;
 }
 
 /* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
@@ -119,66 +116,13 @@
   top: -170px;
 }
 
-
-/*------------------------------------------*/
-/* Este bloco adiciona os dedos dos braços */
-#pessoa-enforcada .braco-direito-dedo1 {
-  right: -23.5px;
-  top: -75px;
-  width: 3px;
-  height: 15px;
-  background-color: #333;
-  position: relative;
-  border-radius: 10px;
-}
-
-/* Este bloco adiciona os dedos dos braços */
-#pessoa-enforcada .braco-direito-dedo2 {
-  right: -27px;
-  top: -82.5px;
-  width: 3px;
+/* Este bloco adiciona os dedos aos braços e pernas */
+*#pessoa-enforcada .dedo {
+  width: 5px;
   height: 10px;
   background-color: #333;
   position: relative;
-  border-radius: 10px;
 }
-
-/* Este bloco adiciona os dedos dos braços */
-#pessoa-enforcada .braco-direito-dedo3 {
-  right: -31px;
-  top: -91px;
-  width: 3px;
-  height: 10px;
-  background-color: #333;
-  position: relative;
-  border-radius: 10px;
-}
-
-/*
-#pessoa-enforcada .braco-direito-dedo1 {
-  right: -29px;
-}
-
-#pessoa-enforcada .braco-direito .dedo2 {
-  right: -24px;
-}
-
-#pessoa-enforcada .braco-direito .dedo3 {
-  right: -19px;
-}
-
-#pessoa-enforcada .braco-direito .dedo4 {
-  right: -14px;
-}
-
-#pessoa-enforcada .braco-direito .dedo5 {
-  right: -9px;
-}*/
-
-
-
-
-/*---------------------------------------*/
 
 /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 

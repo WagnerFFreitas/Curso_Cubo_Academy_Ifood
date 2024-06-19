@@ -14,14 +14,6 @@
   margin: 5px;
 }
 
-/* Este bloco adiciona o tamanho da cabeça */
-#pessoa-enforcada .cabeca {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%; /* Cria uma cabeça arredondada */
-  position: relative;
-}
-
 /* Este bloco adiciona o tamanho do tronco */
 #pessoa-enforcada .tronco {
   width: 40px;
@@ -29,7 +21,13 @@
   border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
 }
 
-
+/* Este bloco adiciona o tamanho da cabeça */
+#pessoa-enforcada .cabeca {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Cria uma cabeça arredondada */
+  position: relative;
+}
 
 /* Este bloco adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
 #pessoa-enforcada .olho, #pessoa-enforcada .orelha, #pessoa-enforcada .nariz, #pessoa-enforcada .cabelo, #pessoa-enforcada .boca {

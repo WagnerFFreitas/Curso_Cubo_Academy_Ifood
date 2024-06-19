@@ -53,7 +53,7 @@ function verificarletra() {
 
 // Função para exibir as partes do enforcado
 function exibirenforcado() {
-  var partesEnforcado = ["cabeca", "tronco", "braco-direito", "braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-esquerdo", "perna-direita", "perna-esquerda"];
+  var partesEnforcado = ["cabeca", "tronco", "braco-direito", "braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-direito-dedo4", "braco-esquerdo", "perna-direita", "perna-esquerda"];
   var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
 
   pessoaEnforcadaElement.innerHTML = "";

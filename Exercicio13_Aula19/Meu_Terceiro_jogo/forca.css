@@ -99,32 +99,12 @@
   top: -120px;
 }
 
-/* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
-#pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
-  width: 20px;
-  height: 50px;
-  position: relative;
-  border-radius: 10px; /* Arredonda as extremidades das pernas */
-}
-
-/* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
-#pessoa-enforcada .perna-direita {
-  right: -15px;
-  top: -110px;
-}
-
-/* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
-#pessoa-enforcada .perna-esquerda {
-  left: -16px;
-  top: -170px;
-}
-
 
 /*------------------------------------------*/
-/* Este bloco adiciona os dedos dos braços */
+/* Os blocos abaixo adiciona os dedos da mao direita */
 #pessoa-enforcada .braco-direito-dedo1 {
-  right: -23.5px;
-  top: -75px;
+  right: -27px;
+  top: -73px;
   width: 3px;
   height: 15px;
   background-color: #333;
@@ -132,10 +112,29 @@
   border-radius: 10px;
 }
 
-/* Este bloco adiciona os dedos dos braços */
 #pessoa-enforcada .braco-direito-dedo2 {
-  right: -27px;
-  top: -82.5px;
+  right: -31.5px;
+  top: -84px;
+  width: 3px;
+  height: 14px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
+
+#pessoa-enforcada .braco-direito-dedo3 {
+  right: -36.3px;
+  top: -97px;
+  width: 3px;
+  height: 11px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
+
+#pessoa-enforcada .braco-direito-dedo4 {
+  right: -40.5px;
+  top: -113px;
   width: 3px;
   height: 10px;
   background-color: #333;
@@ -143,16 +142,16 @@
   border-radius: 10px;
 }
 
-/* Este bloco adiciona os dedos dos braços */
-#pessoa-enforcada .braco-direito-dedo3 {
-  right: -31px;
-  top: -91px;
+#pessoa-enforcada .braco-direito-dedo5 {
+  right: -40.5px;
+  top: -113px;
   width: 3px;
   height: 10px;
   background-color: #333;
   position: relative;
   border-radius: 10px;
 }
+
 
 /*
 #pessoa-enforcada .braco-direito-dedo1 {
@@ -179,6 +178,26 @@
 
 
 /*---------------------------------------*/
+
+/* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
+#pessoa-enforcada .perna-direita, #pessoa-enforcada .perna-esquerda {
+  width: 20px;
+  height: 50px;
+  position: relative;
+  border-radius: 10px; /* Arredonda as extremidades das pernas */
+}
+
+/* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
+#pessoa-enforcada .perna-direita {
+  right: -15px;
+  top: -110px;
+}
+
+/* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
+#pessoa-enforcada .perna-esquerda {
+  left: -16px;
+  top: -170px;
+}
 
 /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 

@@ -9,16 +9,9 @@
 }
 
 /* Este bloco insere a cor preta no corpo do enforcado */
-.cabeca, .tronco, .braco-direito, .braco-esquerdo, .perna-direita, .perna-esquerda {
+.cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
   background-color: #333;
   margin: 5px;
-}
-
-/* Este bloco adiciona o tamanho do tronco */
-#pessoa-enforcada .tronco {
-  width: 40px;
-  height: 60px;
-  border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
 }
 
 /* Este bloco adiciona o tamanho da cabeça */
@@ -28,6 +21,15 @@
   border-radius: 50%; /* Cria uma cabeça arredondada */
   position: relative;
 }
+
+/* Este bloco adiciona o tamanho do tronco */
+#pessoa-enforcada .tronco {
+  width: 40px;
+  height: 60px;
+  border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
+}
+
+
 
 /* Este bloco adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
 #pessoa-enforcada .olho, #pessoa-enforcada .orelha, #pessoa-enforcada .nariz, #pessoa-enforcada .cabelo, #pessoa-enforcada .boca {
@@ -77,7 +79,7 @@
 }
 
 /* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */
-#pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
+#pessoa-enforcada .braco-direito, #pessoa-enforcada .braco-esquerdo {
   /*width: 15px;*/
   width: 20px;
   height: 40px;
@@ -86,7 +88,7 @@
 }
 
 /* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
-#pessoa-enforcada .braco-direito {
+#pessoa-enforcada .braco-esquerdo {
   top: -60px;
   right: -32px;
   /*right: -29px;*/
@@ -94,17 +96,31 @@
 }
 
 /* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
-#pessoa-enforcada .braco-esquerdo {
+#pessoa-enforcada .braco-direito {
   left: -30px;
   top: -120px;
 }
 
 
 /*------------------------------------------*/
-/* Os blocos abaixo adiciona os dedos da mao direita */
-#pessoa-enforcada .braco-direito-dedo1 {
+/* Os blocos abaixo adiciona os dedos da mao esquerda */
+#pessoa-enforcada .braco-esquerda-dedo1 {
+  right: -20.5px;
+  top: -72px;
+  width: 3px;
+  height: 12px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+  /* A linha abaixo inclina o dedo em 30 graus */
+  transform: rotate(20deg);
+  /* A linha abaixo define o ponto de rotação */
+  transform-origin: bottom right;
+}
+
+#pessoa-enforcada .braco-esquerda-dedo2 {
   right: -27px;
-  top: -73px;
+  top: -84px;
   width: 3px;
   height: 15px;
   background-color: #333;
@@ -112,9 +128,9 @@
   border-radius: 10px;
 }
 
-#pessoa-enforcada .braco-direito-dedo2 {
+#pessoa-enforcada .braco-esquerda-dedo3 {
   right: -31.5px;
-  top: -84px;
+  top: -96px;
   width: 3px;
   height: 14px;
   background-color: #333;
@@ -122,9 +138,9 @@
   border-radius: 10px;
 }
 
-#pessoa-enforcada .braco-direito-dedo3 {
+#pessoa-enforcada .braco-esquerda-dedo4 {
   right: -36.3px;
-  top: -97px;
+  top: -108px;
   width: 3px;
   height: 11px;
   background-color: #333;
@@ -132,47 +148,16 @@
   border-radius: 10px;
 }
 
-#pessoa-enforcada .braco-direito-dedo4 {
+#pessoa-enforcada .braco-esquerda-dedo5 {
   right: -40.5px;
-  top: -113px;
+  top: -125px;
   width: 3px;
-  height: 10px;
+  height: 12px;
   background-color: #333;
   position: relative;
   border-radius: 10px;
 }
 
-#pessoa-enforcada .braco-direito-dedo5 {
-  right: -40.5px;
-  top: -113px;
-  width: 3px;
-  height: 10px;
-  background-color: #333;
-  position: relative;
-  border-radius: 10px;
-}
-
-
-/*
-#pessoa-enforcada .braco-direito-dedo1 {
-  right: -29px;
-}
-
-#pessoa-enforcada .braco-direito .dedo2 {
-  right: -24px;
-}
-
-#pessoa-enforcada .braco-direito .dedo3 {
-  right: -19px;
-}
-
-#pessoa-enforcada .braco-direito .dedo4 {
-  right: -14px;
-}
-
-#pessoa-enforcada .braco-direito .dedo5 {
-  right: -9px;
-}*/
 
 
 

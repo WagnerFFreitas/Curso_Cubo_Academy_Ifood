@@ -1,5 +1,5 @@
 var palavraselecionada; // Variável que armazena a palavra selecionada para o jogo.
-var tentativas = 10; // Quantidade de tentativas do jogo da forca.
+var tentativas = 6; // Quantidade de tentativas do jogo da forca.
 var letrascorretas = []; // Letras corretas já digitadas.
 var letrasincorretas = []; // Letras incorretas já digitadas.
 
@@ -53,7 +53,7 @@ function verificarletra() {
 
 // Função para exibir as partes do enforcado
 function exibirenforcado() {
-  var partesEnforcado = ["cabeca", "tronco", "braco-direito", "braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-direito-dedo4", "braco-esquerdo", "perna-direita", "perna-esquerda"];
+  var partesEnforcado = ["cabeca", "tronco", "braco-esquerdo", "braco-esquerda-dedo1", "braco-esquerda-dedo2", "braco-esquerda-dedo3", "braco-esquerda-dedo4", "braco-esquerda-dedo5", "braco-direito", "perna-direita", "perna-esquerda"];
   var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
 
   pessoaEnforcadaElement.innerHTML = "";

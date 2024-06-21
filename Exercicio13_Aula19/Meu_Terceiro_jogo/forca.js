@@ -56,7 +56,8 @@ function exibirenforcado() {
   var partesEnforcado = ["cabeca", "tronco", "braco-esquerdo", "braco-direito", "perna-direita", "perna-esquerda"];
   var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
   var partesAdicionais = {
-    "braco-esquerdo": ["braco-esquerdo-dedo1", "braco-esquerdo-dedo2", "braco-esquerdo-dedo3", "braco-esquerdo-dedo4", "braco-esquerdo-dedo5"]
+    "braco-esquerdo": ["braco-esquerdo-dedo1", "braco-esquerdo-dedo2", "braco-esquerdo-dedo3", "braco-esquerdo-dedo4", "braco-esquerdo-dedo5"],
+    "braco-direito": ["braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-direito-dedo4", "braco-direito-dedo5"]
   };
  
   pessoaEnforcadaElement.innerHTML = "";

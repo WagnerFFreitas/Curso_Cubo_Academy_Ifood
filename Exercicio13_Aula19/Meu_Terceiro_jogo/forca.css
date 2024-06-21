@@ -90,7 +90,6 @@
   top: -70px;
 }
 
-/*--------------------------------------*/
 /* Os blocos abaixo adiciona os dedos da mao esquerda */
 #pessoa-enforcada .braco-esquerdo-dedo1 {
   right: -20.5px;
@@ -107,9 +106,9 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo2 {
-  right: -27px;
+  right: -26px;
   top: -94px;
-  width: 3px;
+  width: 2.5px;
   height: 15px;
   background-color: #333;
   position: relative;
@@ -117,9 +116,9 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo3 {
-  right: -31.5px;
+  right: -29.5px;
   top: -105px;
-  width: 3px;
+  width: 2.5px;
   height: 14px;
   background-color: #333;
   position: relative;
@@ -127,9 +126,9 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo4 {
-  right: -36.3px;
-  top: -110px;
-  width: 3px;
+  right: -33px;
+  top: -118px;
+  width: 2.5px;
   height: 11px;
   background-color: #333;
   position: relative;
@@ -137,28 +136,75 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo5 {
-  right: -40.5px;
-  top: -125px;
-  width: 3px;
+  right: -36.3px;
+  top: -134px;
+  width: 2.3px;
   height: 12px;
   background-color: #333;
   position: relative;
   border-radius: 10px;
 }
 
-
-/*---------------------------------------*/
-
-
-
-
-
-
-
 /* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
 #pessoa-enforcada .braco-direito {
   left: -30px;
-  top: -120px;
+  top: -183px;
+}
+
+
+/* Os blocos abaixo adiciona os dedos da mao direita */
+#pessoa-enforcada .braco-direito-dedo1 {
+  left: -20.5px;
+  top: -198px;
+  width: 3px;
+  height: 12px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+  /* A linha abaixo inclina o dedo em 30 graus */
+  transform: rotate(-20deg);
+  /* A linha abaixo define o ponto de rotação */
+  transform-origin: bottom right;
+}
+
+#pessoa-enforcada .braco-direito-dedo2 {
+  left: -25.5px;
+  top: -208px;
+  width: 2.5px;
+  height: 15px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
+
+#pessoa-enforcada .braco-direito-dedo3 {
+  left: -29px;
+  top: -219.5px;
+  width: 2.5px;
+  height: 14px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
+
+#pessoa-enforcada .braco-direito-dedo4 {
+  left: -32.8px;
+  top: -232px;
+  width: 2.5px;
+  height: 11px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
+
+#pessoa-enforcada .braco-direito-dedo5 {
+  left: -36.3px;
+  top: -247px;
+  width: 2.3px;
+  height: 12px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
 }
 
 /* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */

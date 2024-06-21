@@ -116,15 +116,35 @@
   border-radius: 10px;
 }
 
+#pessoa-enforcada .braco-esquerdo-dedo3 {
+  right: -31.5px;
+  top: -105px;
+  width: 3px;
+  height: 14px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
 
+#pessoa-enforcada .braco-esquerdo-dedo4 {
+  right: -36.3px;
+  top: -110px;
+  width: 3px;
+  height: 11px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
 
-
-
-
-
-
-
-
+#pessoa-enforcada .braco-esquerdo-dedo5 {
+  right: -40.5px;
+  top: -125px;
+  width: 3px;
+  height: 12px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+}
 
 
 /*---------------------------------------*/

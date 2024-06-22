@@ -155,20 +155,20 @@
 /* Os blocos abaixo adiciona os dedos da mao direita */
 #pessoa-enforcada .braco-direito-dedo1 {
   left: -20.5px;
-  top: -198px;
+  top: -197.5px;
   width: 3px;
   height: 12px;
   background-color: #333;
   position: relative;
   border-radius: 10px;
   /* A linha abaixo inclina o dedo em 30 graus */
-  transform: rotate(-20deg);
+  transform: rotate(-20.5deg);
   /* A linha abaixo define o ponto de rotação */
   transform-origin: bottom right;
 }
 
 #pessoa-enforcada .braco-direito-dedo2 {
-  left: -25.5px;
+  left: -25.8px;
   top: -208px;
   width: 2.5px;
   height: 15px;
@@ -178,7 +178,7 @@
 }
 
 #pessoa-enforcada .braco-direito-dedo3 {
-  left: -29px;
+  left: -29.3px;
   top: -219.5px;
   width: 2.5px;
   height: 14px;
@@ -199,7 +199,7 @@
 
 #pessoa-enforcada .braco-direito-dedo5 {
   left: -36.3px;
-  top: -247px;
+  top: -248px;
   width: 2.3px;
   height: 12px;
   background-color: #333;
@@ -209,7 +209,7 @@
 
 /* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
 #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
-  width: 20px;
+  width: 18px;
   height: 50px;
   position: relative;
   border-radius: 10px; /* Arredonda as extremidades das pernas */
@@ -217,23 +217,33 @@
 
 /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
 #pessoa-enforcada .perna-esquerda {
-  right: -16px;
-  top: -170px;
+  left: 12px;
+  top: -237px;
 }
+
+/* Este bloco adiciona o sapato da perna esquerda */
+#pessoa-enforcada .perna-esquerda-sapato {
+  right: -14.5px;
+  top: -258.5px;
+  width: 10px;
+  height: 15px;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+  /* A linha abaixo inclina o dedo em 30 graus */
+  transform: rotate(-90.5deg);
+  /* A linha abaixo define o ponto de rotação */
+  transform-origin: bottom right;
+}
+
+
 
 /* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
 #pessoa-enforcada .perna-direita {
   left: -15px;
-  top: -110px;
+  top: -80px;
 }
 
-/* Este bloco adiciona os dedos aos braços e pernas */
-*#pessoa-enforcada .dedo {
-  width: 5px;
-  height: 10px;
-  background-color: #333;
-  position: relative;
-}
 
 /* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
 

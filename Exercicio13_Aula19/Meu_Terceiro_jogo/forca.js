@@ -57,7 +57,7 @@ function exibirenforcado() {
   var pessoaEnforcadaElement = document.getElementById('pessoa-enforcada');
   var partesAdicionais = {
     "braco-esquerdo": ["braco-esquerdo-dedo1", "braco-esquerdo-dedo2", "braco-esquerdo-dedo3", "braco-esquerdo-dedo4", "braco-esquerdo-dedo5"],
-    "braco-direito": ["braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-direito-dedo4", "braco-direito-dedo5"], "perna-esquerda": ["perna-esquerda-sapato"],"perna-direita": ["perna-direito-sapato"], "cabeca": ["cabeca-olho-esquerdo", "cabeca-olho-direito", "nariz", "orelha", "cabelo", "boca"]
+    "braco-direito": ["braco-direito-dedo1", "braco-direito-dedo2", "braco-direito-dedo3", "braco-direito-dedo4", "braco-direito-dedo5"], "perna-esquerda": ["perna-esquerda-sapato"],"perna-direita": ["perna-direito-sapato"], "cabeca": ["cabeca-olho-esquerdo", "cabeca-olho-direito", "nariz", "cabeca-orelha-esquerda", "cabeca-orelha-direita", "cabelo", "boca"]
   };
  
   pessoaEnforcadaElement.innerHTML = "";

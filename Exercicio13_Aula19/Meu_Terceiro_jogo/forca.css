@@ -86,12 +86,14 @@
   right: 20px;
 }
 
-#pessoa-enforcada .cabelo {
+*#pessoa-enforcada .cabelo {
   top: 0;
-  left: 10px;
-  width: 20px;
+  left: 20px;
+  width: 40px;
   height: 10px;
-  background-color: #333;
+  background-color: rgb(247, 7, 7);
+  border-radius: 50px 50px 0 0px;
+  position: relative;
 }
 
 /* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */

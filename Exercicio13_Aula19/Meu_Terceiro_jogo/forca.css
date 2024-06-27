@@ -14,13 +14,6 @@
   margin: 5px;
 }
 
-/* Este bloco adiciona o tamanho do tronco */
-#pessoa-enforcada .tronco {
-  width: 40px;
-  height: 60px;
-  border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
-}
-
 /* Este bloco adiciona o tamanho da cabeça */
 #pessoa-enforcada .cabeca {
   width: 40px;
@@ -33,7 +26,7 @@
 #pessoa-enforcada .cabeca-olho-esquerdo, .cabeca-olho-direito {
   width: 5px;
   height: 5px;
-  background-color: #fcfafa;
+  background-color: white;
   border-radius: 50%; /* Olhos ficão arredondada */
   position: relative;
 }
@@ -55,7 +48,7 @@
   height: 10px;
   position: relative;
   border-radius: 10px;
-  background-color: #fdfcfc;
+  background-color: white;
 }
 
 #pessoa-enforcada .boca {
@@ -64,7 +57,7 @@
   width: 20px;
   height: 5px;
   position: relative;
-  background-color: rgb(251, 251, 252);
+  background-color: white;
   border-radius: 0 0 50px 50px;
 }
 
@@ -87,14 +80,24 @@
 }
 
 *#pessoa-enforcada .cabelo {
-  top: 0;
-  left: 20px;
-  width: 40px;
-  height: 10px;
-  background-color: rgb(247, 7, 7);
+  top: -91px;
+  left: 0px;
+  width: 34.5px;
+  height: 8px;
+  background-color: #333;
   border-radius: 50px 50px 0 0px;
   position: relative;
 }
+
+/* Este bloco adiciona o tamanho do tronco */
+#pessoa-enforcada .tronco {
+  top: -70px;
+  width: 30px;
+  height: 60px;
+  border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
+  position: relative;
+}
+
 
 /* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */
 #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
@@ -106,14 +109,14 @@
 
 /* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
 #pessoa-enforcada .braco-esquerdo {
-  right: -30px;
-  top: -70px;
+  top: -135px;
+  right: -25px;
 }
 
 /* Os blocos abaixo adiciona os dedos da mao esquerda */
 #pessoa-enforcada .braco-esquerdo-dedo1 {
-  right: -20.5px;
-  top: -83px;
+  top: -149px;
+  right: -15.5px;
   width: 3px;
   height: 12px;
   background-color: #333;
@@ -126,8 +129,8 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo2 {
-  right: -26px;
-  top: -94px;
+  top: -160px;
+  right: -21px;
   width: 2.5px;
   height: 15px;
   background-color: #333;
@@ -136,8 +139,8 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo3 {
-  right: -29.5px;
-  top: -105px;
+  top: -172px;
+  right: -24.5px;
   width: 2.5px;
   height: 14px;
   background-color: #333;
@@ -146,8 +149,8 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo4 {
-  right: -33px;
-  top: -118px;
+  top: -184px;
+  right: -28px;
   width: 2.5px;
   height: 11px;
   background-color: #333;
@@ -156,8 +159,8 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo5 {
-  right: -36.3px;
-  top: -134px;
+  top: -194px;
+  right: -34.3px;
   width: 2.3px;
   height: 12px;
   background-color: #333;

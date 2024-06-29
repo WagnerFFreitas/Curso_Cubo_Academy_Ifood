@@ -159,8 +159,8 @@
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo5 {
-  top: -194px;
-  right: -34.3px;
+  top: -199px;
+  right: -31.4px;
   width: 2.3px;
   height: 12px;
   background-color: #333;
@@ -170,29 +170,29 @@
 
 /* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
 #pessoa-enforcada .braco-direito {
-  left: -30px;
-  top: -183px;
+  top: -249px;  
+  left: -25px;
 }
 
 
 /* Os blocos abaixo adiciona os dedos da mao direita */
 #pessoa-enforcada .braco-direito-dedo1 {
-  left: -20.5px;
-  top: -197.5px;
+  top: -263.5px;
+  left: -15.5px;
   width: 3px;
   height: 12px;
   background-color: #333;
   position: relative;
   border-radius: 10px;
   /* A linha abaixo inclina o dedo em 30 graus */
-  transform: rotate(-20.5deg);
+  transform: rotate(-23.5deg);
   /* A linha abaixo define o ponto de rotação */
   transform-origin: bottom right;
 }
 
 #pessoa-enforcada .braco-direito-dedo2 {
-  left: -25.8px;
-  top: -208px;
+  top: -274px;
+  left: -20.8px;
   width: 2.5px;
   height: 15px;
   background-color: #333;
@@ -201,8 +201,8 @@
 }
 
 #pessoa-enforcada .braco-direito-dedo3 {
-  left: -29.3px;
-  top: -219.5px;
+  top: -286.1px;
+  left: -24.3px;
   width: 2.5px;
   height: 14px;
   background-color: #333;
@@ -211,8 +211,8 @@
 }
 
 #pessoa-enforcada .braco-direito-dedo4 {
-  left: -32.8px;
-  top: -232px;
+  top: -298px;
+  left: -28px;
   width: 2.5px;
   height: 11px;
   background-color: #333;
@@ -221,8 +221,8 @@
 }
 
 #pessoa-enforcada .braco-direito-dedo5 {
-  left: -36.3px;
-  top: -248px;
+  top: -313px;
+  left: -31.4px;
   width: 2.3px;
   height: 12px;
   background-color: #333;
@@ -232,7 +232,7 @@
 
 /* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
 #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
-  width: 18px;
+  width: 15px;
   height: 50px;
   position: relative;
   border-radius: 10px; /* Arredonda as extremidades das pernas */
@@ -240,15 +240,15 @@
 
 /* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
 #pessoa-enforcada .perna-esquerda {
-  left: 12px;
-  top: -237px;
+  top: -311px;
+  left: 10px;
 }
 
 /* Este bloco adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-esquerda-sapato {
-  right: -12.1px;
-  top: -243px;
-  width: 20px;
+  top: -317px;
+  right: -10px;
+  width: 16px;
   height: 8px;
   background-color: #333;
   position: relative;
@@ -257,15 +257,15 @@
 
 /* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
 #pessoa-enforcada .perna-direita {
-  left: -11px;
-  top: -305px;
+  top: -379px;
+  left: -10px;
 }
 
 /* Este bloco adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-direito-sapato {
-  left: -11px;
-  top: -311px;
-  width: 20px;
+  top: -385px;
+  left: -10px;
+  width: 16px;
   height: 8px;
   background-color: #333;
   position: relative;
@@ -288,21 +288,31 @@ h1 {
 
 /* Este bloco define o tamanho da fonte e a sua posição */
 #estado-jogo {
+  top: 250px; /*aqui*/
   font-size: 24px;
-  margin-bottom: 20px;
+  text-align: center;
+  /*margin-bottom: 20px;*/
+  margin-bottom: 5px;
+  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte e a sua posição */
 #tentativas-restantes {
+  top: 290px;
   font-size: 18px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
+  margin-bottom: 5px;
+  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
 #letras-incorretas {
+  top: 310px;
   color: red;
   font-size: 18px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
+  margin-bottom: 5px;
+  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
@@ -328,10 +338,13 @@ h1 {
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
 #pessoa-enforcada {
+  top: -20px; /*aqui*/
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 24px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
+  margin-top: 10px;
   color: #333;
+  position: relative; /*aqui*/
 }

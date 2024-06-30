@@ -272,7 +272,14 @@
   border-radius: 10px;
 }
 
-/* Todos os blocos abaixo são os mesmo do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
+/* Os blocos abaixo usam parte do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
+
+/*O bloco abaixo ajusta a poszição dos textos*/
+#estado-jogo, #tentativas-restantes, #letras-incorretas {
+  position: absolute; /* Posiciona os textos de forma independente */
+  left: 50%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+}
 
 /* Este bloco define a fonte e seu estilo junto com a posição */
 body {
@@ -291,18 +298,14 @@ h1 {
   top: 250px; /*aqui*/
   font-size: 24px;
   text-align: center;
-  /*margin-bottom: 20px;*/
   margin-bottom: 5px;
-  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte e a sua posição */
 #tentativas-restantes {
   top: 290px;
   font-size: 18px;
-  /*margin-bottom: 10px;*/
   margin-bottom: 5px;
-  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
@@ -310,24 +313,32 @@ h1 {
   top: 310px;
   color: red;
   font-size: 18px;
-  /*margin-bottom: 10px;*/
   margin-bottom: 5px;
-  position: absolute; /*aqui*/
 }
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
 #entrada-letra {
+  top: 340px;
   font-size: 16px;
   margin-top: 10px;
   padding: 5px;
+  position: absolute; /* Posiciona os textos de forma independente */
+  left: 46%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  min-width: 5px; /* Define a largura mínima da caixa de input */
+  max-width: 12px; /* Define a largura máxima da caixa de input */
 }
 
 /* Este bloco define o tamanho da fonte, cor e a sua posição */
 #verificar-letra {
+  top: 340px;
   font-size: 16px;
   margin-top: 10px;
   padding: 5px 10px;
   cursor: pointer;
+  position: absolute; /* Posiciona os textos de forma independente */
+  left: 55%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
 }
 
 /* Este bloco define a cor de fundo do botão e quando o botão e precionado */
@@ -343,8 +354,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   font-size: 24px;
-  /*margin-top: 20px;*/
   margin-top: 10px;
   color: #333;
-  position: relative; /*aqui*/
+/*  position: relative; /*aqui*/
 }

@@ -1,0 +1,297 @@
+/* Definição do corpo e estilo global */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilo para o estado do jogo */
+  #estado-jogo, #tentativas-restantes, #letras-incorretas {
+    position: absolute;
+    left: 50%; /* Centralizar o texto na horizontalmente */
+    transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  }
+  
+  #estado-jogo {
+    top: 250px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  #tentativas-restantes {
+    top: 290px;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #letras-incorretas {
+    top: 310px;
+    color: red;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para entrada de letra */
+  #entrada-letra {
+    position: absolute;
+    top: 340px;
+    left: 46%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px;
+    min-width: 5px;
+    max-width: 12px;
+  }
+  
+  #verificar-letra {
+    position: absolute;
+    top: 340px;
+    left: 55%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #verificar-letra:active {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Estilo para a pessoa enforcada */
+  #pessoa-enforcada {
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Estilo para as partes do enforcado */
+  .cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
+    background-color: #333;
+    margin: 5px;
+  }
+  
+  #pessoa-enforcada .cabeca {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  #pessoa-enforcada .cabeca-olho-esquerdo, .cabeca-olho-direito {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  #pessoa-enforcada .cabeca-olho-esquerdo {
+    top: -31.5px;
+    left: 8px;
+  }
+  
+  #pessoa-enforcada .cabeca-olho-direito {
+    top: -36.5px;
+    right: 8px;
+  }
+  
+  #pessoa-enforcada .nariz {
+    position: relative;
+    top: -40px;
+    left: -10px;
+    width: 5px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  #pessoa-enforcada .boca {
+    position: relative;
+    top: -71px;
+    left: 0px;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    border-radius: 0 0 50px 50px;
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-esquerda, .cabeca-orelha-direita {
+    position: relative;
+    width: 7px;
+    height: 13px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-esquerda {
+    top: -51.5px;
+    left: 20px;
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-direita {
+    top: -65px;
+    right: 20px;
+  }
+  
+  #pessoa-enforcada .cabelo {
+    position: relative;
+    top: -91px;
+    left: 0px;
+    width: 34.5px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50px 50px 0 0;
+  }
+  
+  #pessoa-enforcada .tronco {
+    position: relative;
+    top: -70px;
+    width: 30px;
+    height: 60px;
+    border-radius: 20px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
+    position: relative;
+    width: 15px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo {
+    top: -135px;
+    right: -25px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo1 {
+    position: relative;
+    top: -149px;
+    right: -15.5px;
+    width: 3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px;
+    transform: rotate(20deg);
+    transform-origin: bottom right;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo2 {
+    position: relative;
+    top: -160px;
+    right: -21px;
+    width: 2.5px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo3 {
+    position: relative;
+    top: -172px;
+    right: -24.5px;
+    width: 2.5px;
+    height: 14px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo4 {
+    position: relative;
+    top: -184px;
+    right: -28px;
+    width: 2.5px;
+    height: 11px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo5 {
+    position: relative;
+    top: -199px;
+    right: -31.4px;
+    width: 2.3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito {
+    position: relative;
+    top: -249px;
+    left: -25px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo1 {
+    position: relative;
+    top: -263.5px;
+    left: -15.5px;
+    width: 3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px;
+    transform: rotate(-23.5deg);
+    transform-origin: bottom right;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo2 {
+    position: relative;
+    top: -274px;
+    left: -20.8px;
+    width: 2.5px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo3 {
+    position: relative;
+    top: -286.1px;
+    left: -24.3px;
+    width: 2.5px;
+    height: 14px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo4 {
+    position: relative;
+    top: -298px;
+    left: -28px;
+    width: 2.5px;
+    height: 11px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo5 {
+    position: relative;
+    top: -313px;
+    left: -31.4px;
+    width: 2.3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
+    position: relative;
+    width: 15px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .perna-esquer
+  

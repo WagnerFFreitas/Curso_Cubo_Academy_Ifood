@@ -1,4 +1,4 @@
-/* Este bloco cria as partes do enforcado */
+/* O bloco abaixo cria as partes do enforcado */
 #pessoa-enforcada {
   display: flex;
   flex-direction: column;
@@ -8,13 +8,13 @@
   color: #333;
 }
 
-/* Este bloco insere a cor preta no corpo do enforcado */
+/* O bloco abaixo insere a cor preta no corpo do enforcado */
 .cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
   background-color: #333;
   margin: 5px;
 }
 
-/* Este bloco adiciona o tamanho da cabeça */
+/* O bloco abaixo adiciona o tamanho da cabeça */
 #pessoa-enforcada .cabeca {
   width: 40px;
   height: 40px;
@@ -22,7 +22,7 @@
   position: relative;
 }
 
-/* Este bloco adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
+/* O bloco abaixo adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
 #pessoa-enforcada .cabeca-olho-esquerdo, .cabeca-olho-direito {
   width: 5px;
   height: 5px;
@@ -89,7 +89,7 @@
   position: relative;
 }
 
-/* Este bloco adiciona o tamanho do tronco */
+/* O bloco abaixo adiciona o tamanho do tronco */
 #pessoa-enforcada .tronco {
   top: -70px;
   width: 30px;
@@ -99,7 +99,7 @@
 }
 
 
-/* Este bloco adiciona o tamanho dos braços e arredonda as extremidades */
+/* O bloco abaixo adiciona o tamanho dos braços e arredonda as extremidades */
 #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
   width: 15px;
   height: 40px;
@@ -107,7 +107,7 @@
   border-radius: 10px; /* Arredonda as extremidades dos braços */
 }
 
-/* Este bloco adiciona o posicionamento do braço direito à direita do tronco */
+/* O bloco abaixo adiciona o posicionamento do braço direito à direita do tronco */
 #pessoa-enforcada .braco-esquerdo {
   top: -135px;
   right: -25px;
@@ -168,7 +168,7 @@
   border-radius: 10px;
 }
 
-/* Este bloco adiciona o posicionamento do braço esquerdo à esquerda do tronco */
+/* O bloco abaixo adiciona o posicionamento do braço esquerdo à esquerda do tronco */
 #pessoa-enforcada .braco-direito {
   top: -249px;  
   left: -25px;
@@ -230,7 +230,7 @@
   border-radius: 10px;
 }
 
-/* Este bloco adiciona o tamanho das pernas e arredonda as extremidades */
+/* O bloco abaixo adiciona o tamanho das pernas e arredonda as extremidades */
 #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
   width: 15px;
   height: 50px;
@@ -238,13 +238,13 @@
   border-radius: 10px; /* Arredonda as extremidades das pernas */
 }
 
-/* Este bloco adiciona o posicionamento da perna direita embaixo do tronco */
+/* O bloco abaixo adiciona o posicionamento da perna direita embaixo do tronco */
 #pessoa-enforcada .perna-esquerda {
   top: -311px;
   left: 10px;
 }
 
-/* Este bloco adiciona o sapato da perna esquerda */
+/* O bloco abaixo adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-esquerda-sapato {
   top: -317px;
   right: -10px;
@@ -255,13 +255,13 @@
   border-radius: 10px;
 }
 
-/* Este bloco adiciona o posicionamento da perna esquerda embaixo do tronco */
+/* O bloco abaixo adiciona o posicionamento da perna esquerda embaixo do tronco */
 #pessoa-enforcada .perna-direita {
   top: -379px;
   left: -10px;
 }
 
-/* Este bloco adiciona o sapato da perna esquerda */
+/* O bloco abaixo adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-direito-sapato {
   top: -385px;
   left: -10px;
@@ -272,28 +272,28 @@
   border-radius: 10px;
 }
 
-/* Os blocos abaixo usam parte do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado */
+/* ## Os blocos abaixo usam parte do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado ## */
 
-/*O bloco abaixo ajusta a poszição dos textos*/
-#estado-jogo, #tentativas-restantes, #letras-incorretas {
-  position: absolute; /* Posiciona os textos de forma independente */
-  left: 50%; /* Centralizar o texto na horizontalmente */
-  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
-}
-
-/* Este bloco define a fonte e seu estilo junto com a posição */
+/* O bloco abaixo define a fonte e seu estilo junto com a posição */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 20px;
 }
 
-/* Este bloco define a cor do título do jogo */
+/* O bloco abaixo define a cor do título do jogo */
 h1 {
   color: #333;
 }
 
-/* Este bloco define o tamanho da fonte e a sua posição */
+/*O bloco abaixo ajusta a posição dos textos*/
+#estado-jogo, #tentativas-restantes, #letras-incorretas {
+  position: absolute; /* Posiciona os textos de forma independente */
+  left: 50%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajusta para própria largura do próprio texto */
+}
+
+/* O bloco abaixo define o tamanho da fonte e a sua posição */
 #estado-jogo {
   top: 250px; /*aqui*/
   font-size: 24px;
@@ -301,14 +301,14 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Este bloco define o tamanho da fonte e a sua posição */
+/* O bloco abaixo define o tamanho da fonte e a sua posição */
 #tentativas-restantes {
   top: 290px;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-/* Este bloco define o tamanho da fonte, cor e a sua posição */
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #letras-incorretas {
   top: 310px;
   color: red;
@@ -316,20 +316,20 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Este bloco define o tamanho da fonte, cor e a sua posição */
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #entrada-letra {
-  top: 340px;
-  font-size: 16px;
-  margin-top: 10px;
-  padding: 5px;
   position: absolute; /* Posiciona os textos de forma independente */
+  top: 340px; /* Define a posição do elemento no topo da página */
+  font-size: 16px; /* Define o tamanho da fonte do texto */
+  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/
+  padding: 5px; /* Determina a distancia das laterais do conteúdo do elemento */
   left: 46%; /* Centralizar o texto na horizontalmente */
   transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
   min-width: 5px; /* Define a largura mínima da caixa de input */
   max-width: 12px; /* Define a largura máxima da caixa de input */
 }
 
-/* Este bloco define o tamanho da fonte, cor e a sua posição */
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #verificar-letra {
   top: 340px;
   font-size: 16px;
@@ -341,13 +341,13 @@ h1 {
   transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
 }
 
-/* Este bloco define a cor de fundo do botão e quando o botão e precionado */
+/* O bloco abaixo define a cor de fundo do botão e quando o botão e precionado */
 #verificar-letra:active {
   background-color: blue;
   color: white;
 }
 
-/* Este bloco define o tamanho da fonte, cor e a sua posição */
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #pessoa-enforcada {
   top: -20px; /*aqui*/
   display: flex;

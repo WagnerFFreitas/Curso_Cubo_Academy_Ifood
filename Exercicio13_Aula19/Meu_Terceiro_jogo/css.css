@@ -1,0 +1,411 @@
+/* O bloco abaixo cria as partes do enforcado */
+#pessoa-enforcada {
+    display: flex; /* Define um contêiner flexível, permitindo o uso de propriedades de layout flexbox */
+    flex-direction: column; /* Alinha os itens flexíveis em uma coluna (verticalmente) */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente no contêiner */
+    margin-top: 20px; /* Adiciona um espaçamento em pixel acima do elemento */
+    font-size: 24px; /* Define o tamanho da fonte do texto */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* O bloco abaixo insere a cor preta no corpo do enforcado */
+  .cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
+    margin: 5px; 
+    background-color: #333;
+  }
+  
+  /* O bloco abaixo adiciona o tamanho da cabeça */
+  #pessoa-enforcada .cabeca {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; /* Cria uma cabeça arredondada */
+  }
+  
+  /* O bloco abaixo adiciona os detalhes da cabeça (olhos, nariz, boca, orelhas e cabelo) */
+  #pessoa-enforcada .cabeca-olho-esquerdo, .cabeca-olho-direito {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    width: 5px; /* Define a largura dos olhos */
+    height: 5px; /* Define a altura dos olhos */
+    background-color: white; 
+    border-radius: 50%; /* Olhos arredondados */
+  }
+  
+  #pessoa-enforcada .cabeca-olho-esquerdo {
+    top: -31.5px; /* Define a posição do olho esquerdo */
+    left: 8px; 
+  }
+  
+  #pessoa-enforcada .cabeca-olho-direito {
+    top: -36.5px; /* Define a posição do olho direito */
+    right: 8px; 
+  }
+  
+  #pessoa-enforcada .nariz {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -40px; /* Define a posição do nariz */
+    left: -10px; /* Define a posição do nariz à esquerda */
+    width: 5px; 
+    height: 10px; 
+    border-radius: 10px; 
+    background-color: white; 
+  }
+  
+  #pessoa-enforcada .boca {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -71px; /* Define a posição da boca */
+    left: 0px; 
+    width: 20px; 
+    height: 5px; /* Define a altura da boca */
+    background-color: white; 
+    border-radius: 0 0 50px 50px; 
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-esquerda, .cabeca-orelha-direita {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    width: 7px; 
+    height: 13px;
+    background-color: #333; 
+    border-radius: 50%; /* Orelhas arredondadas */
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-esquerda {
+    top: -51.5px; /* Define a posição da orelha esquerda */
+    left: 20px;
+  }
+  
+  #pessoa-enforcada .cabeca-orelha-direita {
+    top: -65px; /* Define a posição da orelha direita */
+    right: 20px;
+  }
+  
+  #pessoa-enforcada .cabelo {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -91px; /* Define a posição do cabelo */
+    left: 0px;
+    width: 34.5px;
+    height: 8px;
+    background-color: #333;
+    border-radius: 50px 50px 0 0px;
+  }
+  
+  /* O bloco abaixo adiciona o tamanho do tronco */
+  #pessoa-enforcada .tronco {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -70px; /* Define a posição do tronco */
+    width: 30px;
+    height: 60px;
+    border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
+  }
+  
+  /* O bloco abaixo adiciona o tamanho dos braços e arredonda as extremidades */
+  #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    width: 15px;
+    height: 40px;
+    border-radius: 10px; /* Arredonda as extremidades dos braços */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento do braço direito à direita do tronco */
+  #pessoa-enforcada .braco-esquerdo {
+    top: -135px;
+    right: -25px;
+  }
+  
+  /* Os blocos abaixo adicionam os dedos da mão esquerda */
+  #pessoa-enforcada .braco-esquerdo-dedo1 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -149px; /* Define a posição do dedo */
+    right: -15.5px;
+    width: 3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px;
+    transform: rotate(20deg); 
+    transform-origin: bottom right;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo2 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -160px; /* Define a posição do dedo */
+    right: -21px;
+    width: 2.5px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo3 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -172px; /* Define a posição do dedo */
+    right: -24.5px;
+    width: 2.5px;
+    height: 14px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo4 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -184px; /* Define a posição do dedo */
+    right: -28px;
+    width: 2.5px;
+    height: 11px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-esquerdo-dedo5 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -199px; /* Define a posição do dedo */
+    right: -31.4px;
+    width: 2.3px;
+    height: 12px;
+    background-color: #333; 
+    border-radius: 10px;
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento do braço direito à direita do tronco */
+  #pessoa-enforcada .braco-direito {
+    top: -175px; 
+    right: 26px;
+  }
+  
+  /* Os blocos abaixo adicionam os dedos da mão direita */
+  #pessoa-enforcada .braco-direito-dedo1 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -189px; /* Define a posição do dedo */
+    left: 11px;
+    width: 3px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 10px; /* Adiciona bordas arredondadas ao dedo */
+    transform: rotate(-20deg); /* Inclina o dedo em -20 graus */
+    transform-origin: bottom left; 
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo2 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -200px; /* Define a posição do dedo */
+    left: 16.5px;
+    width: 2.5px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo3 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -211.5px; /* Define a posição do dedo */
+    left: 19.5px;
+    width: 2.5px;
+    height: 14px;
+    background-color: #333; 
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo4 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -223px; /* Define a posição do dedo */
+    left: 22.5px;
+    width: 2.5px;
+    height: 11px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  #pessoa-enforcada .braco-direito-dedo5 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -237px; /* Define a posição do dedo */
+    left: 26px; /* Define a posição do dedo 1 à esquerda */
+    width: 2.3px; /* Define a largura do dedo */
+    height: 12px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao dedo */
+  }
+  
+  /* O bloco abaixo adiciona o tamanho das pernas */
+  #pessoa-enforcada .perna-esquerda, .perna-direita {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    width: 15px; /* Define a largura das pernas */
+    height: 40px; /* Define a altura das pernas */
+    border-radius: 10px; /* Adiciona bordas arredondadas às pernas */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento da perna esquerda */
+  #pessoa-enforcada .perna-esquerda {
+    top: -125px; /* Define a posição da perna esquerda */
+    right: 12.5px; /* Define a posição da perna à esquerda */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento da perna direita */
+  #pessoa-enforcada .perna-direita {
+    top: -165px; /* Define a posição da perna direita */
+    right: -12.5px; /* Define a posição da perna à direita */
+  }
+  
+  /* Os blocos abaixo adicionam os dedos dos pés à perna esquerda */
+  #pessoa-enforcada .perna-esquerda-dedo1 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -175px; /* Define a posição do dedo */
+    right: -1.5px; /* Define a posição do dedo 1 à direita */
+    width: 5px; /* Define a largura do dedo */
+    height: 7px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-esquerda-dedo2 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -182px; /* Define a posição do dedo */
+    right: 0px; /* Define a posição do dedo 2 à direita */
+    width: 4px; /* Define a largura do dedo */
+    height: 8px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-esquerda-dedo3 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -191px; /* Define a posição do dedo */
+    right: -0.1px; /* Define a posição do dedo 3 à direita */
+    width: 3px; /* Define a largura do dedo */
+    height: 8px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-esquerda-dedo4 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -200px; /* Define a posição do dedo */
+    right: 2px; /* Define a posição do dedo 4 à direita */
+    width: 3px; /* Define a largura do dedo */
+    height: 7px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-esquerda-dedo5 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -210px; /* Define a posição do dedo */
+    right: 5px; /* Define a posição do dedo 5 à direita */
+    width: 2.5px; /* Define a largura do dedo */
+    height: 8px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  /* Os blocos abaixo adicionam os dedos dos pés à perna direita */
+  #pessoa-enforcada .perna-direita-dedo1 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -195px; /* Define a posição do dedo */
+    left: 6px; /* Define a posição do dedo 1 à direita */
+    width: 5px; /* Define a largura do dedo */
+    height: 7px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-direita-dedo2 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -202px; /* Define a posição do dedo */
+    left: 5px;
+    width: 4px; /* Define a largura do dedo */
+    height: 8px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+  #pessoa-enforcada .perna-direita-dedo3 {
+    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
+    top: -211px; /* Define a posição do dedo */
+    left: 5.2px;
+    width: 3px; /* Define a largura do dedo */
+    height: 8px; /* Define a altura do dedo */
+    background-color: #333; /* Define a cor de fundo do dedo como preto */
+    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
+  }
+  
+/* O bloco abaixo cria as partes do enforcado */
+#pessoa-enforcada {
+    display: flex; /* Define um contêiner flexível, permitindo o uso de propriedades de layout flexbox */
+    flex-direction: column; /* Alinha os itens flexíveis em uma coluna (verticalmente) */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente no contêiner */
+    margin-top: 20px; /* Adiciona um espaçamento em pixel acima do elemento */
+    font-size: 24px; /* Define o tamanho da fonte do texto */
+    color: #333; /* Define a cor do texto */
+  }
+  
+
+  /* O bloco abaixo cria as partes do enforcado */
+#pessoa-enforcada {
+    display: flex; /* Define um contêiner flexível, permitindo o uso de propriedades de layout flexbox */
+    flex-direction: column; /* Alinha os itens flexíveis em uma coluna (verticalmente) */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente no contêiner */
+    margin-top: 20px; /* Adiciona um espaçamento em pixel acima do elemento */
+    font-size: 24px; /* Define o tamanho da fonte do texto */
+    color: #333; /* Define a cor do texto */
+  }
+  
+  /* O bloco abaixo insere a cor preta no corpo do enforcado */
+  .cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
+    margin: 5px;
+    background-color: #333;
+  }
+  
+  /* O bloco abaixo adiciona o tamanho da cabeça */
+  #pessoa-enforcada .cabeca {
+    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
+    width: 40px; /* Define a altura */
+    height: 40px; /* Define a largura */
+    border-radius: 50%; /* Cria uma cabeça arredondada */
+  }
+  
+  /* O bloco abaixo adiciona o tamanho do tronco */
+  #pessoa-enforcada .tronco {
+    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
+    top: -70px; /* Define a posição do elemento no topo da página */
+    width: 30px;
+    height: 60px;
+    border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
+  }
+  
+  /* O bloco abaixo adiciona o tamanho dos braços e arredonda as extremidades */
+  #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
+    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
+    width: 15px;
+    height: 40px;
+    border-radius: 10px; /* Arredonda as extremidades dos braços */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento do braço direito à direita do tronco */
+  #pessoa-enforcada .braco-esquerdo {
+    top: -135px;
+    right: -25px; /* Define a posição do elemento à direita */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento do braço esquerdo à esquerda do tronco */
+  #pessoa-enforcada .braco-direito {
+    top: -249px; /* Define a posição do elemento no topo da página */
+    left: -25px; /* Define a posição do elemento à esquerda */
+  }
+  
+  /* O bloco abaixo adiciona o tamanho das pernas e arredonda as extremidades */
+  #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
+    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
+    width: 15px;
+    height: 50px;
+    border-radius: 10px; /* Arredonda as extremidades das pernas */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento da perna direita embaixo do tronco */
+  #pessoa-enforcada .perna-esquerda {
+    top: -311px; /* Define a posição do elemento no topo da página */
+    left: 10px; /* Define a posição do elemento à esquerda */
+  }
+  
+  /* O bloco abaixo adiciona o posicionamento da perna esquerda embaixo do tronco */
+  #pessoa-enforcada .perna-direita {
+    top: -379px; /* Define a posição do elemento no topo da página */
+    left: -10px; /* Define a posição do elemento à esquerda */
+  }

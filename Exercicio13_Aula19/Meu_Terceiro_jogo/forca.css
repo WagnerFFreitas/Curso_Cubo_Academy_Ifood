@@ -239,7 +239,6 @@
   left: 10px; /* Define a posição da perna esquerda à esquerda*/
 }
 
-
 /* O bloco abaixo adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-esquerda-sapato {
   position: relative; /* Define a posição do sapato esquerdo, posicionando-o de acordo com o fluxo da página */
@@ -272,36 +271,36 @@
 
 /* O bloco abaixo define a fonte e seu estilo junto com a posição */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 20px;
+  font-family: Arial, sans-serif; /* Define a família da fonte principal e uma alternativa genérica */
+  text-align: center; /* Alinha o texto ao centro */
+  margin: 20px; /* Define a margem em torno do elemento body */
 }
 
 /* O bloco abaixo define a cor do título do jogo */
 h1 {
-  color: #333;
+  color: #333; /* Define a cor do texto do título */
 }
 
 /*O bloco abaixo ajusta a posição dos textos*/
 #estado-jogo, #tentativas-restantes, #letras-incorretas {
   position: absolute; /* Posiciona os textos de forma independente */
   left: 50%; /* Centralizar o texto na horizontalmente */
-  transform: translateX(-50%); /* Ajusta para própria largura do próprio texto */
+  transform: translateX(-50%); /* Ajusta a largura do próprio texto */
 }
 
 /* O bloco abaixo define o tamanho da fonte e a sua posição */
 #estado-jogo {
-  top: 250px; /* Define a posição em relação ao topo da página */
+  top: 250px; /* Define a posição do texto em relação ao topo da página */
   font-size: 24px; /* Define o tamanho da fonte do texto */
-  text-align: center;
-  margin-bottom: 5px;
+  text-align: center; /* Alinha o texto ao centro */
+  margin-bottom: 5px; /* Define a margem inferior */
 }
 
 /* O bloco abaixo define o tamanho da fonte e a sua posição */
 #tentativas-restantes {
-  top: 290px; /* Define a posição em relação ao topo da página */
+  top: 290px; /* Define a posição do texto em relação ao topo da página */
   font-size: 18px; /* Define o tamanho da fonte do texto */
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Define a margem inferior */ 
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
@@ -309,32 +308,32 @@ h1 {
   top: 310px;/* Posiciona os textos de forma independente */
   color: red; /* Define a cor das letras incorretas */
   font-size: 18px; /* Define o tamanho da fonte do texto */
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Define a margem inferior */
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #entrada-letra {
   position: absolute; /* Posiciona os textos de forma independente */
-  top: 340px; /* Define a posição em relação ao topo da página */
+  top: 340px; /* Define a posição do texto em relação ao topo da página */
   left: 46%; /* Centralizar o texto na horizontalmente */
-  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  transform: translateX(-50%); /* Ajusta a largura do próprio texto */
   font-size: 16px; /* Define o tamanho da fonte do texto */
-  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/
-  padding: 5px; /* Determina a distancia das laterais do conteúdo do elemento */
-  min-width: 5px; /*Define o tamanho da largura mínima da caixa de input */
-  max-width: 12px; /*Define o tamanho da largura máxima da caixa de input */
+  margin-top: 10px; /* Define a distância superior do conteúdo do texto */
+  padding: 5px; /* Define o preenchimento em torno do conteúdo do texto */
+  min-width: 5px; /* Define o tamanho da largura mínima da caixa de input */
+  max-width: 12px; /* Define o tamanho da largura máxima da caixa de input */
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #verificar-letra {
   position: absolute; /* Posiciona os textos de forma independente */
-  top: 340px; /* Define a posição em relação ao topo da página */
+  top: 340px; /* Define a posição do texto em relação ao topo da página */
   left: 55%; /* Centralizar o texto na horizontalmente */
-  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  transform: translateX(-50%); /* Ajustar a largura do próprio texto */
   font-size: 16px; /* Define o tamanho da fonte do texto */
-  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/ 
-  padding: 5px 10px; /* Determina a distancia das laterais do conteúdo do elemento */ 
-  cursor: pointer;
+  margin-top: 10px; /* Define a distância superior do conteúdo do texto */ 
+  padding: 5px 10px; padding: 5px 10px; /* Define o preenchimento no topo e na parte inferior das laterais */
+  cursor: pointer; /* Define o cursor como um ponteiro ao passar o mouse sobre o Texto */
 }
 
 /* O bloco abaixo define a cor de fundo do botão e quando o botão e precionado */

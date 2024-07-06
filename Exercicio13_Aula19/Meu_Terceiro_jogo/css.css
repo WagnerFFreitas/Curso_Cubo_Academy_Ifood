@@ -1,114 +1,75 @@
-  /* Os blocos abaixo adicionam os dedos dos pés à perna direita */
-  #pessoa-enforcada .perna-direita-dedo1 {
-    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
-    top: -195px; /* Define a posição do dedo */
-    left: 6px; /* Define a posição do dedo 1 à direita */
-    width: 5px; /* Define a largura do dedo */
-    height: 7px; /* Define a altura do dedo */
-    background-color: #333; /* Define a cor de fundo do dedo como preto */
-    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
-  }
-  
-  #pessoa-enforcada .perna-direita-dedo2 {
-    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
-    top: -202px; /* Define a posição do dedo */
-    left: 5px;
-    width: 4px; /* Define a largura do dedo */
-    height: 8px; /* Define a altura do dedo */
-    background-color: #333; /* Define a cor de fundo do dedo como preto */
-    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
-  }
-  
-  #pessoa-enforcada .perna-direita-dedo3 {
-    position: relative; /* Define a posição do elemento como relativa ao seu posicionamento normal */
-    top: -211px; /* Define a posição do dedo */
-    left: 5.2px;
-    width: 3px; /* Define a largura do dedo */
-    height: 8px; /* Define a altura do dedo */
-    background-color: #333; /* Define a cor de fundo do dedo como preto */
-    border-radius: 0 0 10px 10px; /* Adiciona bordas arredondadas à parte inferior do dedo */
-  }
-  
-/* O bloco abaixo cria as partes do enforcado */
-#pessoa-enforcada {
-    display: flex; /* Define um contêiner flexível, permitindo o uso de propriedades de layout flexbox */
-    flex-direction: column; /* Alinha os itens flexíveis em uma coluna (verticalmente) */
-    align-items: center; /* Centraliza os itens flexíveis horizontalmente no contêiner */
-    margin-top: 20px; /* Adiciona um espaçamento em pixel acima do elemento */
-    font-size: 24px; /* Define o tamanho da fonte do texto */
-    color: #333; /* Define a cor do texto */
-  }
-  
 
-  /* O bloco abaixo cria as partes do enforcado */
-#pessoa-enforcada {
-    display: flex; /* Define um contêiner flexível, permitindo o uso de propriedades de layout flexbox */
-    flex-direction: column; /* Alinha os itens flexíveis em uma coluna (verticalmente) */
-    align-items: center; /* Centraliza os itens flexíveis horizontalmente no contêiner */
-    margin-top: 20px; /* Adiciona um espaçamento em pixel acima do elemento */
-    font-size: 24px; /* Define o tamanho da fonte do texto */
-    color: #333; /* Define a cor do texto */
-  }
-  
-  /* O bloco abaixo insere a cor preta no corpo do enforcado */
-  .cabeca, .tronco, .braco-esquerdo, .braco-direito, .perna-direita, .perna-esquerda {
-    margin: 5px;
-    background-color: #333;
-  }
-  
-  /* O bloco abaixo adiciona o tamanho da cabeça */
-  #pessoa-enforcada .cabeca {
-    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
-    width: 40px; /* Define a altura */
-    height: 40px; /* Define a largura */
-    border-radius: 50%; /* Cria uma cabeça arredondada */
-  }
-  
-  /* O bloco abaixo adiciona o tamanho do tronco */
-  #pessoa-enforcada .tronco {
-    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
-    top: -70px; /* Define a posição do elemento no topo da página */
-    width: 30px;
-    height: 60px;
-    border-radius: 20px; /* Adiciona bordas arredondadas ao tronco */
-  }
-  
-  /* O bloco abaixo adiciona o tamanho dos braços e arredonda as extremidades */
-  #pessoa-enforcada .braco-esquerdo, #pessoa-enforcada .braco-direito {
-    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
-    width: 15px;
-    height: 40px;
-    border-radius: 10px; /* Arredonda as extremidades dos braços */
-  }
-  
-  /* O bloco abaixo adiciona o posicionamento do braço direito à direita do tronco */
-  #pessoa-enforcada .braco-esquerdo {
-    top: -135px;
-    right: -25px; /* Define a posição do elemento à direita */
-  }
-  
-  /* O bloco abaixo adiciona o posicionamento do braço esquerdo à esquerda do tronco */
-  #pessoa-enforcada .braco-direito {
-    top: -249px; /* Define a posição do elemento no topo da página */
-    left: -25px; /* Define a posição do elemento à esquerda */
-  }
-  
-  /* O bloco abaixo adiciona o tamanho das pernas e arredonda as extremidades */
-  #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
-    position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
-    width: 15px;
-    height: 50px;
-    border-radius: 10px; /* Arredonda as extremidades das pernas */
-  }
-  
-  /* O bloco abaixo adiciona o posicionamento da perna direita embaixo do tronco */
-  #pessoa-enforcada .perna-esquerda {
-    top: -311px; /* Define a posição do elemento no topo da página */
-    left: 10px; /* Define a posição do elemento à esquerda */
-  }
-  
-  /* O bloco abaixo adiciona o posicionamento da perna esquerda embaixo do tronco */
-  #pessoa-enforcada .perna-direita {
-    top: -379px; /* Define a posição do elemento no topo da página */
-    left: -10px; /* Define a posição do elemento à esquerda */
-  }
+/* ## Os blocos abaixo usam parte do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado ## */
+
+/* O bloco abaixo define a fonte e seu estilo junto com a posição */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* O bloco abaixo define a cor do título do jogo */
+h1 {
+  color: #333;
+}
+
+/*O bloco abaixo ajusta a posição dos textos*/
+#estado-jogo, #tentativas-restantes, #letras-incorretas {
+  position: absolute; /* Posiciona os textos de forma independente */
+  left: 50%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajusta para própria largura do próprio texto */
+}
+
+/* O bloco abaixo define o tamanho da fonte e a sua posição */
+#estado-jogo {
+  top: 250px; /* Define a posição em relação ao topo da página */
+  font-size: 24px; /* Define o tamanho da fonte do texto */
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* O bloco abaixo define o tamanho da fonte e a sua posição */
+#tentativas-restantes {
+  top: 290px; /* Define a posição em relação ao topo da página */
+  font-size: 18px; /* Define o tamanho da fonte do texto */
+  margin-bottom: 5px;
+}
+
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
+#letras-incorretas {
+  top: 310px;/* Posiciona os textos de forma independente */
+  color: red; /* Define a cor das letras incorretas */
+  font-size: 18px; /* Define o tamanho da fonte do texto */
+  margin-bottom: 5px;
+}
+
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
+#entrada-letra {
+  position: absolute; /* Posiciona os textos de forma independente */
+  top: 340px; /* Define a posição em relação ao topo da página */
+  left: 46%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  font-size: 16px; /* Define o tamanho da fonte do texto */
+  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/
+  padding: 5px; /* Determina a distancia das laterais do conteúdo do elemento */
+  min-width: 5px; /*Define o tamanho da largura mínima da caixa de input */
+  max-width: 12px; /*Define o tamanho da largura máxima da caixa de input */
+}
+
+/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
+#verificar-letra {
+  position: absolute; /* Posiciona os textos de forma independente */
+  top: 340px; /* Define a posição em relação ao topo da página */
+  left: 55%; /* Centralizar o texto na horizontalmente */
+  transform: translateX(-50%); /* Ajustar para a largura do próprio texto */
+  font-size: 16px; /* Define o tamanho da fonte do texto */
+  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/ 
+  padding: 5px 10px; /* Determina a distancia das laterais do conteúdo do elemento */ 
+  cursor: pointer;
+}
+
+/* O bloco abaixo define a cor de fundo do botão e quando o botão e precionado */
+#verificar-letra:active {
+  background-color: blue; /* Define a cor do botão ao clicar nele */
+  color: white; /* Define a cor botão verificar*/
+}

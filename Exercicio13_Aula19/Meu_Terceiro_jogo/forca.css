@@ -121,7 +121,7 @@
   width: 3px; /* Define o tamanho da largura do dedo 1 esquerdo */
   height: 12px; /* Define o tamanho da altura dedo 1 esquerdo */
   background-color: #333; /* Define a cor de fundo do dedo 1 esquerdo */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 1 esquerdo */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 1 esquerdo */
   transform: rotate(20deg); /* Define a inclinação do dedo 1 esquerdo (Rotação) */
   transform-origin: bottom right; /* Define o ponto de rotação do dedo 1 esquerdo */
 }
@@ -133,7 +133,7 @@
   width: 2.5px; /* Define o tamanho da largura do dedo 2 esquerdo */
   height: 15px; /* Define o tamanho da altura dedo 2 esquerdo */
   background-color: #333; /* Define a cor de fundo do dedo 2 esquerdo */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 2 esquerdo */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 2 esquerdo */
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo3 {
@@ -143,7 +143,7 @@
   width: 2.5px; /*Define o tamanho da largura do dedo 3 esquerdo */
   height: 14px; /* Define o tamanho da altura dedo 3 esquerdo */
   background-color: #333; /* Define a cor de fundo do dedo 3 esquerdo */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 3 esquerdo */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 3 esquerdo */
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo4 {
@@ -153,7 +153,7 @@
   width: 2.5px; /* Define o tamanho da largura do dedo 4 esquerdo */
   height: 11px; /* Define o tamanho da altura dedo 4 esquerdo */
   background-color: #333; /* Define a cor de fundo do dedo 4 esquerdo */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 4 esquerdo*/
+  border-radius: 10px; /* Arredonda as extremidades do dedo 4 esquerdo */
 }
 
 #pessoa-enforcada .braco-esquerdo-dedo5 {
@@ -163,15 +163,14 @@
   width: 2.3px; /* Define o tamanho da largura do dedo 5 esquerdo */
   height: 12px; /* Define o tamanho da altura dedo 5 esquerdo */
   background-color: #333; /* Define a cor de fundo do dedo 5 esquerdo */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 5 esquerdo */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 5 esquerdo */
 }
 
 /* O bloco abaixo adiciona o posicionamento do braço esquerdo à esquerda do tronco */
 #pessoa-enforcada .braco-direito {
   top: -249px; /* Define a posição do braço direito em relação ao topo da página */
-  left: -25px;  /* Define a posição do braço à direita */
+  left: -25px; /* Define a posição do braço à direita */
 }
-
 
 /* Os blocos abaixo adiciona os dedos da mao direita */
 #pessoa-enforcada .braco-direito-dedo1 {
@@ -181,9 +180,9 @@
   width: 3px; /*Define o tamanho da largura do dedo 1 direito */
   height: 12px; /* Define o tamanho da altura dedo 1 direito */
   background-color: #333; /* Define a cor de fundo do dedo 1 direito */
-  border-radius: 10px; /* define a inclinação do dedo 1 direito (rotação) */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 1 direito */
   transform: rotate(-23.5deg); /* Define a inclinação do dedo 1 direito (Rotação) */
-  transform-origin: bottom right;/* Define o ponto de rotação do dedo 1 direito */
+  transform-origin: bottom right; /* Define o ponto de rotação do dedo 1 direito */
 }
 
 #pessoa-enforcada .braco-direito-dedo2 {
@@ -193,7 +192,7 @@
   width: 2.5px; /*Define o tamanho da largura do dedo 2 direito */
   height: 15px; /* Define o tamanho da altura dedo 2 direito */
   background-color: #333; /* Define a cor de fundo do dedo 2 direito */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 2 direito */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 2 direito */
 }
 
 #pessoa-enforcada .braco-direito-dedo3 {
@@ -203,7 +202,7 @@
   width: 2.5px; /*Define o tamanho da largura do dedo 3 direito */
   height: 14px; /* Define o tamanho da altura dedo 3 direito */
   background-color: #333; /* Define a cor de fundo do dedo 3 direito */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 3 direito */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 3 direito */
 }
 
 #pessoa-enforcada .braco-direito-dedo4 {
@@ -213,7 +212,7 @@
   width: 2.5px; /*Define o tamanho da largura do dedo 4 direito */
   height: 11px; /* Define o tamanho da altura dedo 4 direito */
   background-color: #333; /* Define a cor de fundo do dedo 4 direito */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao dedo 4 direito */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 4 direito */
 }
 
 #pessoa-enforcada .braco-direito-dedo5 {
@@ -221,17 +220,17 @@
   top: -313px; /* Define a posição do dedo 5 direito em relação ao topo da página */
   left: -31.4px; /* Define a posição do dedo 5 à esquerda */
   width: 2.3px; /* Define o tamanho da largura do dedo 5 direito */
-  height: 12px;/* Define o tamanho da altura do dedo 5 direito */
-  background-color: #333;/* Define a cor de fundo do dedo 5 direito */
-  border-radius: 10px;/* Adiciona bordas arredondadas ao dedo 5 direito */
+  height: 12px; /* Define o tamanho da altura do dedo 5 direito */
+  background-color: #333; /* Define a cor de fundo do dedo 5 direito */
+  border-radius: 10px; /* Arredonda as extremidades do dedo 5 direito */
 }
 
 /* O bloco abaixo adiciona o tamanho das pernas e arredonda as extremidades */
 #pessoa-enforcada .perna-esquerda, #pessoa-enforcada .perna-direita {
-  position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
+  position: relative; /* Define a posição das pernas, posicionando-as de acordo com o fluxo da página */
   width: 15px; /* Define o tamanho da largura das pernas */
-  height: 50px;/* Define o tamanho da altura das pernas */
-  border-radius: 10px; /* Arredonda bordas arredondas nas extremidades das pernas */
+  height: 50px; /* Define o tamanho da altura das pernas */
+  border-radius: 10px; /* Arredonda as extremidades das pernas */
 }
 
 /* O bloco abaixo adiciona o posicionamento da perna direita embaixo do tronco */
@@ -245,28 +244,28 @@
 #pessoa-enforcada .perna-esquerda-sapato {
   position: relative; /* Define a posição do sapato esquerdo, posicionando-o de acordo com o fluxo da página */
   top: -317px; /* Define a posição do sapato esquerdo em relação ao topo da página */
-  right: -10px;/* Define a posição do sapato esquerdo  à direita */
-  width: 16px;/* Define o tamanho da largura do sapato esquerdo */
+  right: -10px; /* Define a posição do sapato esquerdo à direita */
+  width: 16px; /* Define o tamanho da largura do sapato esquerdo */
   height: 8px; /* Define o tamanho da altura do sapato esquerdo */
-  background-color: #333;/* Define a cor de fundo do sapato esquerdo */
-  border-radius: 10px;/* Adiciona bordas arredondadas na extremidade do sapato esquerdo */
+  background-color: #333; /* Define a cor de fundo do sapato esquerdo */
+  border-radius: 10px; /* Arredonda as extremidades do sapato direito */
 }
 
 /* O bloco abaixo adiciona o posicionamento da perna esquerda embaixo do tronco */
 #pessoa-enforcada .perna-direita {
   top: -379px; /* Define a posição em relação ao topo da página */
-  left: -10px;/* Adiciona bordas arredondadas à parte inferior do dedo */
+  left: -10px; /* Define a posição da perna direita à esquerda*/
 }
 
 /* O bloco abaixo adiciona o sapato da perna esquerda */
 #pessoa-enforcada .perna-direito-sapato {
-  position: relative; /* Define a posição do elemento posicionando-o de acordo com o fluxo da página */
-  top: -385px; /* Define a posição em relação ao topo da página */
-  left: -10px;
-  width: 16px;
-  height: 8px;
-  background-color: #333;
-  border-radius: 10px;
+  position: relative; /* Define a posição do sapato direito, posicionando-o de acordo com o fluxo da página */
+  top: -385px; /* Define a posição do sapato direito em relação ao topo da página */
+  left: -10px; /* Define a posição do sapato direito à esquerda */
+  width: 16px; /* Define o tamanho da largura do sapato direito */
+  height: 8px; /* Define o tamanho da altura do sapato direito */
+  background-color: #333; /* Define a cor de fundo do sapato direito */
+  border-radius: 10px;  /* Arredonda as extremidades do sapato direito */
 }
 
 /* ## Os blocos abaixo usam parte do arquivo forca.CSS do Meu_Primeiro_Jogo a qual foi criado ## */
@@ -342,15 +341,4 @@ h1 {
 #verificar-letra:active {
   background-color: blue; /* Define a cor do botão ao clicar nele */
   color: white; /* Define a cor botão verificar*/
-}
-
-/* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
-#pessoa-enforcada {
-  display: flex;
-  top: -20px; /* Define a posição em relação ao topo da página */
-  flex-direction: column;
-  align-items: center;
-  font-size: 24px; /* Define o tamanho da fonte do texto */ 
-  margin-top: 10px; /* Determina a distância superior do conteúdo do elemento*/ 
-  color: #333; /* Define a cor das partes do boneco do enforcado*/
 }

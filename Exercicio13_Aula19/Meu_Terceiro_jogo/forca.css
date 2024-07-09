@@ -47,8 +47,8 @@
   left: -10x; /* Define a posição do nariz à esquerda */
   width: 5px; /* Define o tamanho da largura do nariz */
   height: 10px; /* Define o tamanho da altura do nariz */
-  border-radius: 10px; /* Define a formas arredondadas nas bordas do nariz */
   background-color: white; /* Define a cor de fundo do nariz */
+  border-radius: 10px; /* Define a formas arredondadas nas bordas do nariz */
 }
 
 #pessoa-enforcada .boca {
@@ -177,12 +177,12 @@
   position: relative; /* Define a posição do dedo 1 direito, posicionando-o de acordo com o fluxo da página */
   top: -263.5px; /* Define a posição do dedo 1 direito em relação ao topo da página */
   left: -15.5px; /* Define a posição do dedo 1 direito à esquerda */
+  transform: rotate(-23.5deg); /* Define a inclinação do dedo 1 direito (Rotação) */
+  transform-origin: bottom right; /* Define o ponto de rotação do dedo 1 direito */
   width: 3px; /*Define o tamanho da largura do dedo 1 direito */
   height: 12px; /* Define o tamanho da altura dedo 1 direito */
   background-color: #333; /* Define a cor de fundo do dedo 1 direito */
   border-radius: 10px; /* Arredonda as extremidades do dedo 1 direito */
-  transform: rotate(-23.5deg); /* Define a inclinação do dedo 1 direito (Rotação) */
-  transform-origin: bottom right; /* Define o ponto de rotação do dedo 1 direito */
 }
 
 #pessoa-enforcada .braco-direito-dedo2 {
@@ -271,9 +271,9 @@
 
 /* O bloco abaixo define a fonte e seu estilo junto com a posição */
 body {
+  margin: 20px; /* Define a margem em torno do elemento body */
   font-family: Arial, sans-serif; /* Define a família da fonte principal e uma alternativa genérica */
   text-align: center; /* Alinha o texto ao centro */
-  margin: 20px; /* Define a margem em torno do elemento body */
 }
 
 /* O bloco abaixo define a cor do título do jogo */
@@ -291,24 +291,24 @@ h1 {
 /* O bloco abaixo define o tamanho da fonte e a sua posição */
 #estado-jogo {
   top: 250px; /* Define a posição do texto em relação ao topo da página */
+  margin-bottom: 5px; /* Define a margem inferior */
   font-size: 24px; /* Define o tamanho da fonte do texto */
   text-align: center; /* Alinha o texto ao centro */
-  margin-bottom: 5px; /* Define a margem inferior */
 }
 
 /* O bloco abaixo define o tamanho da fonte e a sua posição */
 #tentativas-restantes {
   top: 290px; /* Define a posição do texto em relação ao topo da página */
-  font-size: 18px; /* Define o tamanho da fonte do texto */
   margin-bottom: 5px; /* Define a margem inferior */ 
+  font-size: 18px; /* Define o tamanho da fonte do texto */
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
 #letras-incorretas {
   top: 310px;/* Posiciona os textos de forma independente */
-  color: red; /* Define a cor das letras incorretas */
-  font-size: 18px; /* Define o tamanho da fonte do texto */
   margin-bottom: 5px; /* Define a margem inferior */
+  font-size: 18px; /* Define o tamanho da fonte do texto */
+  color: red; /* Define a cor das letras incorretas */
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
@@ -317,11 +317,11 @@ h1 {
   top: 340px; /* Define a posição do texto em relação ao topo da página */
   left: 46%; /* Centralizar o texto na horizontalmente */
   transform: translateX(-50%); /* Ajusta a largura do próprio texto */
-  font-size: 16px; /* Define o tamanho da fonte do texto */
+  min-width: 5px; /* Define o tamanho da largura mínima da caixa de input */
+  max-width: 12px; /* Define o tamanho da largura máxima da caixa de input */ 
   margin-top: 10px; /* Define a distância superior do conteúdo do texto */
   padding: 5px; /* Define o preenchimento em torno do conteúdo do texto */
-  min-width: 5px; /* Define o tamanho da largura mínima da caixa de input */
-  max-width: 12px; /* Define o tamanho da largura máxima da caixa de input */
+  font-size: 16px; /* Define o tamanho da fonte do texto */
 }
 
 /* O bloco abaixo define o tamanho da fonte, cor e a sua posição */
@@ -330,14 +330,14 @@ h1 {
   top: 340px; /* Define a posição do texto em relação ao topo da página */
   left: 55%; /* Centralizar o texto na horizontalmente */
   transform: translateX(-50%); /* Ajustar a largura do próprio texto */
-  font-size: 16px; /* Define o tamanho da fonte do texto */
   margin-top: 10px; /* Define a distância superior do conteúdo do texto */ 
   padding: 5px 10px; padding: 5px 10px; /* Define o preenchimento no topo e na parte inferior das laterais */
+  font-size: 16px; /* Define o tamanho da fonte do texto */
   cursor: pointer; /* Define o cursor como um ponteiro ao passar o mouse sobre o Texto */
 }
 
-/* O bloco abaixo define a cor de fundo do botão e quando o botão e precionado */
+/* O bloco abaixo define a cor de fundo do botão e quando o botão e pressionado */
 #verificar-letra:active {
-  background-color: blue; /* Define a cor do botão ao clicar nele */
   color: white; /* Define a cor botão verificar*/
+  background-color: blue; /* Define a cor do botão ao clicar nele */
 }

@@ -1,5 +1,5 @@
 # Exercicio13_Aula20
-Aula 19_Logica de programação da IFood_Cubo Academy
+Aula 20_Logica de programação da IFood_Cubo Academy
 
 **Função deste jogo da forca e o aprimoramento do Meu_Primeiro_Jogo, contendo um boneco sendo enforcado a cada letra incorreta e aceita também letras com acento**
 

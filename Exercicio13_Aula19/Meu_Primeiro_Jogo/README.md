@@ -1,5 +1,5 @@
 # Exercicio13_Aula19
-Aula 19_Logica de programação da IFood_Cubo Academy
+Aula 20_Logica de programação da IFood_Cubo Academy
 
 **Este é o algoritmo da lógica do jogo da forca, para uma descrição em português para um possível desenvolvimento em outra linguagem.**
 

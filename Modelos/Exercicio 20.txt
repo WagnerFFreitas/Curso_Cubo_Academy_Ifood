@@ -1,0 +1,48 @@
+1 Algoritmo "Loja de tinta"
+2
+3 Var
+4 // Seção de Declarações das variaveis
+5 m2, m2_restante, lat_t, lat, gal_t, gal, total_gasto : real
+6 desp: real
+7
+8 Inicio
+9 // Seção de Comandos, procedimento, funções, operadores, etc...
+10
+11 escreval("Digite o tamanho da área a ser pintada (m): ")
+12 leia (m2)
+13 escreval("")
+14
+15 //1 litro para cada 6 m
+16 //tinta vendida em latas 180 por R$ 80,00
+17 //ou em ga 18es de 3,62 por R$ 25,00
+18
+19 //1 galão cobre 21,6 m2
+20//1 lata cobre 108 m
+21
+22 //arredondando p/ mais a divisão da quantidade de metros + a quantidade
+23 //pintada por latão / galão, assim se tem quantos itens são nescessários por
+24 //metros quadrados
+25 lat t <- int ((m2 / 108) + 0.9)
+26 gal t <- int ((m2 / 21.6) + 0.9)
+27
+28 escreval("Somente latöes: ", lat_t, unidades, no valor total de: R$", lat_t *
+29 escreval("Somente galões: ", gal t, "unidades, no valor total de: RS", gal t
+30
+31 //dita quantidade de latoes a serem comprados
+32 //5 galoes equivalem a 1 latão, e o preço fica mais baixo
+33 // logo, parte inteira de divisão por 5, equivale a quantidade de latoes
+34 //nescessárias
+35 lat <- int (gal_t / 5)
+36 //diz quanto sobra de ma serem pintados, após retirar a quantidade de latöes
+37 // que serão nescessárias para o usuário
+38 m2_restante <- m2 - (lat * 108)
+39 // de acordo com a quantidade de mi que restaram, após calculo dos laties,
+40 //diz quantos galees serão nescessários para completar o pedido do cliente.
+41 gal <- int ( (m2_restante / 21.6) + 0.9)
+42 escreval("Comprando galões e latões, e evitando desperdicios: ")
+43 //. total gasto é igual ao valor total de galoes - latöes pelos seus
+44 //respectivos prepos
+45 total_gasto <- ((gal*25)+(lat*80))
+46 escreval("Galões: ", gal)
+47 escreval("Lates: ", lat)
+48 escreva ("Com o valor total de R$", total gasto: 8:2)

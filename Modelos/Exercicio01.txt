@@ -1,0 +1,248 @@
+ #include<stdio.h>
+#include <locale.h> 
+	main(){
+	float f,c;
+		setlocale(LC_ALL, "Portuguese");
+		printf("Insira o valor em Fahrenheit: ");
+		scanf("%f", &f);
+		c = 5*(f-32)/9;
+		printf("O valor em Celsius é de:%.2f.", c);		
+	}
+
+---------------
+int idade;
+float salario;
+
+printf("digite seu nome" );
+scanf("%s", &nome);
+printf("digite sua idade");
+scanf("%d", &idade);
+printf("digite seu salario atual");
+scanf("%f", &salario)
+}
+
+----------
+int idade;
+float salario;
+
+printf("digite seu nome" );
+scanf("%s", &nome);
+printf("digite sua idade");
+scanf("%d", &idade);
+printf("digite seu salario atual");
+scanf("%f", &salario)
+}
+16/11/2021 16:34 - Leticia UCAM analista desenvolvimento de sistemas: char nome [10];
+int idade;
+float salario;
+
+printf("digite seu nome" );
+scanf("%s", &nome);
+printf("digite sua idade");
+scanf("%d", &idade);
+printf("digite seu salario atual");
+scanf("%f", &salario);    <<<--- FALTOU ; AQUI
+return 0;
+}
+
+--------
+
+function cookingTime(eggs) {
+let calculate = 0 ;
+  if(eggs <= 0){
+    return (`0, 0 eggs`)
+  }
+  else if(eggs % 8 === 0){
+    calculate = (eggs / 8) * 5
+  return (`${calculate}, ${eggs} eggs`)
+   } {
+     calculate = (eggs % 8) * 5;
+     return (`${calculate}, ${eggs} eggs`)
+  }
+
+
+
+function cookingTime(eggs) {
+  let capacidadeMaxima = 8;
+  let tempo = 5;
+  if(eggs <= 0){
+    return 0;
+  }
+  var numEggs = Math.ceil(eggs / capacidadeMaxima);
+  return numEggs * tempo;
+}
+
+
+function cookingTime(eggs) {
+  var min = 0;
+  for (var i = 0; i < eggs; i += 8)
+    min += 5;
+  return min;
+}
+
+----------
+
+
+int main (){
+
+float valor,valorDesc,kw,sal;
+int qtdgasta;
+
+	 printf("Salario minimo: ");
+
+	 scanf("%f",&sal);
+
+	 kw = sal / 700;
+
+	 printf("Kw gastos: ");
+
+	 scanf("%d",&qtdgasta);
+
+	 valor = qtdgasta * kw;
+
+	 valorDesc = valor * 0.9;
+
+	 printf("Cada kw custa em media : %.2f\n ",kw);	 
+
+	printf("valor sem desconto: %.2f\n ",valor);
+
+	printf("valor com desconto : %.2f\n ",valorDesc);
+
+return 0;
+
+}
+
+---------
+
+
+CREATE TABLE Veiculo (
+    Marca varchar(200),
+    Modelo varchar(100),
+    CodVeiculo int PRIMARY KEY,
+    Descricao varchar(200),
+    Cor varchar(200)
+);
+
+CREATE TABLE Manutencao (
+    CodVeiculo int,
+    Modelo varchar(200),
+    Custo double
+);
+
+CREATE TABLE Cliente (
+    CodCliente int PRIMARY KEY,
+    Endereco varchar(200),
+    cpf varchar(200)
+);
+
+CREATE TABLE Contrato_Contrata (
+    seguro double,
+    CodCliente int,
+    CodVeiculo int,
+    fk_Cliente_CodCliente int,
+    fk_Veiculo_CodVeiculo int
+);
+ 
+ALTER TABLE Contrato_Contrata ADD CONSTRAINT FK_Contrato_Contrata_1
+    FOREIGN KEY (fk_Cliente_CodCliente)
+    REFERENCES Cliente (CodCliente)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Contrato_Contrata ADD CONSTRAINT FK_Contrato_Contrata_2
+    FOREIGN KEY (fk_Veiculo_CodVeiculo)
+    REFERENCES Veiculo (CodVeiculo)
+    ON DELETE RESTRICT;
+
+--------
+
+ #include<stdio.h>
+#include<locale.h>
+main(){
+	float n1;
+	float n2;
+	float media;
+	setlocale(LC_ALL, "Portuguese");
+	//printf("Hello World!\n");
+	//printf("meu primeiro código\n");
+	printf("Digite a nota 1: ");
+	scanf("%d", &n1);
+	printf("Digite a nota 2: ");
+	scanf("%d", &n2);
+	media=(n1 + n2) / 2;
+	printf("\nSua média foi de ",media);
+	return 0;
+
+----------
+
+  float vetor[100],maior=0,menor=2.50;
+  int i;  
+  	while (i<100){	
+	  printf("Informe a altura %d do vetor: ", i);
+	  	scanf("%f", &vetor[i]);
+	  	if (vetor[i] > maior){
+		  maior=vetor[i];}	  
+		if(vetor[i]<menor){
+		menor=vetor[i];}
+			i++;}
+		for(i=0;i<100; i++){
+		printf("Altura %d: %.2fm\n", i, vetor[i]);
+		}	
+		printf("\nMenor altura: %.2fm", menor);
+		printf("\nMaior altura: %.2fm", maior);
+}
+
+
+------------
+ #include <stdio.h>
+
+main(){
+
+	float salariom,  valorqwatts, total, desconto;
+
+	int qwatts;
+
+	printf("Informe o valor do salario minimo:");
+
+	scanf("%f",&salariom);
+
+	printf(" Informe a quantidade de quilowatts gasta:");
+
+	scanf("%d",&qwatts);
+
+	valorqwatts = (salariom / 7) / 100;
+
+	total = qwatts * valorqwatts;
+
+	desconto = total - (total * 10 / 100);
+
+	printf("\n O valor de cada quilowatts e de R$%.2f",valorqwatts);
+
+	printf("\n O valor total a ser pago e de R$%.2f",total);
+
+	printf("\n O valor total a ser pago com desconto e de R$%.2f",desconto);
+
+}
+
+--------
+int main(){
+	
+	float minimo;
+	float kw;
+	float custo;
+	
+	printf ("Valor do salario minimo: ");
+	scanf ("%f", &minimo);
+	
+	printf ("Quantidade de quillowatts gasta: ");
+	scanf ("%f", &kw);
+	
+	custo = minimo / 7 / 100;
+	
+	printf("1KW custa %.2f reais \n", custo);
+	printf ("O preco a ser pago e de %.2f reais \n", custo*kw);
+	printf ("Com desconto de 10 porcento o preco fica em %.2f reais", custo * kw / 10*9);
+}
+
+----------
+
+

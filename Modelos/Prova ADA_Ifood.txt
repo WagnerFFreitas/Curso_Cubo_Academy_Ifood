@@ -1,0 +1,48 @@
+Para calcular o ângulo central do setor que representa a quantidade de pratos pedidos, podemos utilizar a regra de três simples. Sabemos que o setor circular que representa os pratos corresponde a 12% do total de pedidos. Como o círculo completo tem 360°, podemos calcular o ângulo central do setor dos pratos da seguinte forma:
+
+12% --------------- 360°
+x   --------------- y
+
+y = (12 x 360) / 100 = 43,2°
+
+Portanto, o ângulo central do setor que representa a quantidade de pratos pedidos é aproximadamente 43° (alternativa C)⁴⁵.
+--------------------------------------------------------
+
+Os 8 alunos trabalhando 6 horas por dia conseguiram digitar 60% do código em 15 dias. Isso significa que eles digitaram 0,6 * 8 * 6 * 15 = 432 horas de trabalho. 
+
+Os dois integrantes que saíram trabalhavam juntos por 6 horas por dia, ou seja, eles trabalhavam juntos por 12 horas por dia. Portanto, os integrantes que restaram no grupo trabalharão juntos por 2 horas a menos por dia. 
+
+Dessa forma, o grupo restante levará mais 432 / (6 * 6) = 12 dias para finalizar o trabalho (alternativa A).
+
+---------------------------------------------------------------
+Seja x a idade do colaborador recém aposentado. 
+
+A média de idade do time antes da contratação do novo analista era de (15x - x) / 15 = 14x / 15.
+
+Após a contratação do novo analista, a média de idade do time passou a ser (15x - x + 20) / 15 = (14x + 20) / 15.
+
+Temos então:
+
+(14x + 20) / 15 = (14x / 15) - 3
+
+x = 65
+
+Portanto, a idade do colaborador recém aposentado é de 65 anos (alternativa D).
+-----------------------------------------------------------------
+A probabilidade do Carlos ser sorteado é de 20% (alternativa B).
+----------------------------------------------------------------------
+O motoqueiro deverá trabalhar 240 horas no mês para obter 20% a mais do que seu gasto mensal (alternativa D).
+---------------------------------------------------------------------------
+A probabilidade dele ser da turma Back-End é 28 / (28 + 24 + 32) = 0,311 (alternativa E).
+
+----------------------------------------------
+
+
+
+
+
+
+
+
+
+

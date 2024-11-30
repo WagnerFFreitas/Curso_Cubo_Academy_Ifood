@@ -1,0 +1,351 @@
+Presa ou predador
+
+Problema
+Em uma reportagem de 2016, a revista Veja cita as principais características que indicam se um animal é presa ou predador. Uma delas, segundo a revista, é que as presas costumam ter os olhos nos lados da cabeça, o que oferece um amplo ângulo de visão.
+
+Martin Banks, professor de óptica da Universidade de Berkeley, diz o seguinte:
+
+“A primeira necessidade desses animais (presas) é detectar predadores. Por isso, desenvolveram uma visão panorâmica com poucos pontos cegos”.
+
+Você foi contratado pelo grupo de pesquisadores que desenvolveram essa pesquisa para criar um programa que diga se um animal é presa ou predador.
+
+Entrada
+A entrada do seu programa é composta de uma variável do tipo booleana chamada olhosNasLaterais, que indica se o animal analisado tem ou não olhos nas laterais da cabeça. O valor de true quer dizer que o animal tem olhos nas laterais e false que não tem.
+
+Saída
+Seu programa deve retornar:
+
+PRESA: se o animal tiver olhos nas laterais da cabeça;
+
+PREDADOR: se não tiver olhos nas laterais da cabeça.
+
+Exemplo:
+
+Entrada
+olhosNasLaterais = true
+
+Saída
+PRESA
+
+Explicação
+
+O animal possui olhos nas laterais da cabeça e, portanto, é uma presa.
+
+Veja os três principais erros que você pode está cometendo ao passar seu código para a nossa plataforma:
+
+
+___________________________
+
+
+Luta entre categoria 
+
+Problema:
+Verificação de Lutadores UFC.
+Você, desenvolvedor sênior do UFC, maior evento de artes maciais mistas (MMA) do mundo, deve desenvolver um programa que indique à organização do novo evento que sua empresa vai fazer se dois lutadores podem ou não lutar. Os lutadores serão divididos em cinco categorias: Peso leve: lutadores com peso mais leve que 55 kg; Peso meio-médio: categoria mais pesada que a anterior e com pesos mais leves que 65 kg; peso médio: categoria mais pesada que a anterior e com pesos mais leves que 75 kg; Peso meio-pesado: categoria mais pesada que a anterior e com pesos mais leves que 85 kg; Peso pesado: pesos maiores ou iguais a 85 kg. A regra do evento é: os lutadores só podem lutar com lutadores da mesma categoria. Entrada A entrada do seu programa será composta por duas variáveis: peso1: variável numérica que armazena o peso de um dos lutadores; peso2: variável numérica que armazena o peso do outro lutador. Saída Você deve retornar:
+
+PODEM LUTAR: se os lutadores forem da mesma categoria; NAO PODEM 
+
+LUTAR: se os lutadores forem de categorias diferentes. Exemplo Entrada 1 peso1 = 60 peso2 = 64 Saída 1 PODEM 
+
+LUTAR Explicação 1 Um dos lutadores pesa 60 kg e o outro pesa 64 kg. Como ambos são da categoria dos pesos meio-médios, eles podem lutar. Entrada 2 peso1 = 55 peso2 = 54 Saída 1 NAO 
+
+PODEM LUTAR Explicação 1 Um dos lutadores pesa 55 kg e o outro pesa 54 kg. O primeiro lutador citado é da categoria dos pesos meio-médios, o outro é da categoria dos pesos leves. Como ambos são de categorias diferentes, eles não podem lutar
+
+
+
+
+def verificar_camada_atmosfera(altitude):
+    if altitude <= 20:
+        return "TROPOSFERA"
+    elif altitude <= 50:
+        return "ESTRATOSFERA"
+    elif altitude <= 80:
+        return "MESOSFERA"
+    elif altitude <= 450:
+        return "TERMOSFERA"
+    else:
+        return "EXOSFERA"
+
+# Exemplos de teste
+print(verificar_camada_atmosfera(85))  # Saída: TERMOSFERA
+print(verificar_camada_atmosfera(15))  # Saída: TROPOSFERA
+
+
+
+function solucao(altitude) {
+        // seu codigo aqui
+if (altitude <= 20) {
+  console.log("TROPOSFERA");
+ 
+} else if (altitude <= 50) {
+  console.log("ESTRATOSFERA");
+ 
+} else if (altitude <= 80) {
+  console.log("MESOSFERA");
+ 
+} else if (altitude <= 450) {
+  console.log("TERMOSFERA");
+ 
+} else if (altitude <= 900) {
+  console.log("EXOSFERA");
+ 
+}
+}
+
+
+
+
+function solucao(altitude) {
+  // seu codigo aqui
+  if (altitude <= 20) {
+    return "TROPOSFERA";
+ 
+  } else if (altitude <= 50) {
+    return "ESTRATOSFERA";
+ 
+  } else if (altitude <= 80) {
+    return "MESOSFERA";
+ 
+  } else if (altitude <= 450) {
+    return "TERMOSFERA";
+ 
+  } else if (altitude <= 900) {
+    return "EXOSFERA";
+ 
+  }
+}
+
+
+Luta entre categoria
+
+Problema:
+Verificação de lutadores UFC.
+Você foi contratado pelo UFC, maior evento de artes maciais mistas (MMA) do mundo, para desenvolver um programa que os ajude a saber se uma luta entre dois lutadores pode ou não acontecer.
+A única restrição para que uma luta aconteça é que os lutadores tenham uma diferença máxima de peso de 5 kg.
+
+A entrada do seu programa será composta por uma variável chamada pesos, do tipo array de number, que armazena, respectivamente, o peso do Lutador A e do Lutador B, ambos em quilogramas, sendo esses os lutadores analisados.
+
+PODEM LUTAR: caso a diferença entre os pesos dos lutadores seja no máximo de 5 kg;
+NAO PODEM LUTAR: caso a diferença entre os pesos dos lutadores seja maior que 5 kg.
+
+let pesos = [50, 58];
+let peso = 0;
+peso = pesos[0] - pesos[1]
+if (peso < 0) {
+  peso *= -1
+  if (peso <= 5) {
+    console.log("PODEM LUTAR")
+  }else {
+    console.log("NAO PODEM LUTAR")
+  }
+  console.log(peso)
+}else {
+  if (peso <= 5) {
+    console.log("PODEM LUTAR")
+  }else {
+    console.log("NAO PODEM LUTAR")
+  }
+  console.log(peso)
+}
+
+
+function verificarLuta(pesos) {
+  var diferencaPeso = Math.abs(pesos[0] - pesos[1]);
+
+  if (diferencaPeso <= 5) {
+    return "PODEM LUTAR";
+  } else {
+    return "NAO PODEM LUTAR";
+  }
+}
+
+// Exemplo de uso
+var pesos = [50, 53];
+var resultado = verificarLuta(pesos);
+console.log(resultado);
+
+
+
+function verificarLuta(pesos) {
+  const diferenca = Math.abs(pesos[0] - pesos[1]);
+  
+  if (diferenca <= 5) {
+    return "PODEM LUTAR";
+  } else {
+    return "NAO PODEM LUTAR";
+  }
+}
+
+// Exemplo de uso
+const pesos = [50, 53];
+const resultado = verificarLuta(pesos);
+console.log(resultado); // Saída: PODEM LUTAR
+
+
+
+function verificarLuta(pesos) {
+  const diferenca = Math.abs(pesos[0] - pesos[1]);
+
+  if (diferenca <= 5) {
+    return "PODEM LUTAR";
+  } else {
+    return "NAO PODEM LUTAR";
+  }
+}
+
+// Exemplos de uso
+const pesos1 = [50, 53];
+const resultado1 = verificarLuta(pesos1);
+console.log(resultado1); // Saída: PODEM LUTAR
+
+const pesos2 = [60, 70];
+const resultado2 = verificarLuta(pesos2);
+console.log(resultado2); // Saída: NAO PODEM LUTAR
+
+
+const pesos1 = [70, 75];
+const resultado1 = verificarLuta(pesos1);
+console.log(resultado1); // Saída: PODEM LUTAR
+
+const pesos2 = [65, 80];
+const resultado2 = verificarLuta(pesos2);
+console.log(resultado2); // Saída: NAO PODEM LUTAR
+
+const pesos3 = [55, 58];
+const resultado3 = verificarLuta(pesos3);
+console.log(resultado3); // Saída: PODEM LUTAR
+
+const pesos4 = [90, 92];
+const resultado4 = verificarLuta(pesos4);
+console.log(resultado4); // Saída: PODEM LUTAR
+
+
+const pesos1 = [50, 50];
+const resultado1 = verificarLuta(pesos1);
+console.log(resultado1); // Saída: PODEM LUTAR
+
+const pesos2 = [50, 55];
+const resultado2 = verificarLuta(pesos2);
+console.log(resultado2); // Saída: PODEM LUTAR
+
+const pesos3 = [55, 50];
+const resultado3 = verificarLuta(pesos3);
+console.log(resultado3); // Saída: PODEM LUTAR
+
+const pesos4 = [50, 51];
+const resultado4 = verificarLuta(pesos4);
+console.log(resultado4); // Saída: PODEM LUTAR
+
+const pesos5 = [51, 50];
+const resultado5 = verificarLuta(pesos5);
+console.log(resultado5); // Saída: PODEM LUTAR
+
+const pesos6 = [50, 56];
+const resultado6 = verificarLuta(pesos6);
+console.log(resultado6); // Saída: NAO PODEM LUTAR
+
+const pesos7 = [56, 50];
+const resultado7 = verificarLuta(pesos7);
+console.log(resultado7); // Saída: NAO PODEM LUTAR
+
+const pesos8 = [50, 55.5];
+const resultado8 = verificarLuta(pesos8);
+console.log(resultado8); // Saída: NAO PODEM LUTAR
+
+const pesos9 = [55.5, 50];
+const resultado9 = verificarLuta(pesos9);
+console.log(resultado9); // Saída: NAO PODEM LUTAR
+
+
+
+def determine_animal_type(olhosNasLaterais):
+    if olhosNasLaterais:
+        return "PRESA"
+    else:
+        return "PREDADOR"
+
+# Example usage
+animal1 = determine_animal_type(True)
+print(animal1)  # Output: PRESA
+
+animal2 = determine_animal_type(False)
+print(animal2)  # Output: PREDADOR
+
+
+
+
+
+Problema
+Você, desenvolvedor sênior do UFC, maior evento de artes maciais mistas (MMA) do mundo, deve desenvolver um programa que indique à organização do novo evento que sua empresa vai fazer se dois lutadores podem ou não lutar.
+
+Os lutadores serão divididos em cinco categorias:
+
+Peso leve: lutadores com peso mais leve que 55 kg;
+
+Peso meio-médio:  categoria mais pesada que a anterior e com pesos mais leves que 65 kg;
+
+peso médio: categoria mais pesada que a anterior e com pesos mais leves que 75 kg;
+
+Peso meio-pesado: categoria mais pesada que a anterior e com pesos mais leves que 85 kg;
+
+Peso pesado: pesos maiores ou iguais a 85 kg.
+
+A regra do evento é: os lutadores só podem lutar com lutadores da mesma categoria.
+
+Entrada
+A entrada do seu programa será composta por duas variáveis:
+
+peso1: variável numérica que armazena o peso de um dos lutadores;
+
+peso2: variável numérica que armazena o peso do outro lutador.
+
+Saída
+Você deve retornar:
+
+PODEM LUTAR: se os lutadores forem da mesma categoria;
+
+NAO PODEM LUTAR: se os lutadores forem de categorias diferentes.
+
+Exemplo
+Entrada 1
+peso1 = 60
+
+peso2 = 64
+
+Saída 1
+PODEM LUTAR
+
+Explicação 1
+Um dos lutadores pesa 60 kg e o outro pesa 64 kg. Como ambos são da categoria dos pesos meio-médios, eles podem lutar.
+
+Entrada 2
+peso1 = 55
+
+peso2 = 54
+
+Saída 1
+NAO PODEM LUTAR
+
+Explicação 1
+Um dos lutadores pesa 55 kg e o outro pesa 54 kg. O primeiro lutador citado é da categoria dos pesos meio-médios, o outro é da categoria dos pesos leves. Como ambos são de categorias diferentes, eles não podem lutar
+
+
+
+function verificarLuta(peso1, peso2) {
+  if (Math.abs(peso1 - peso2) <= 10) {
+    if (peso1 < 55 || peso2 < 55) {
+      return "PODEM LUTAR";
+    } else if (peso1 < 65 || peso2 < 65) {
+      return "PODEM LUTAR";
+    } else if (peso1 < 75 || peso2 < 75) {
+      return "PODEM LUTAR";
+    } else if (peso1 < 85 || peso2 < 85) {
+      return "PODEM LUTAR";
+    }
+  }
+  return "NAO PODEM LUTAR";
+}
+
+// Exemplos de uso
+console.log(verificarLuta(60, 64));  // PODEM LUTAR
+console.log(verificarLuta(55, 54));  // NAO PODEM LUTAR
